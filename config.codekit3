@@ -9,12 +9,12 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg" : {
+    "\/assets\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 833978,
+      "iS" : 98619,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg",
+      "oAP" : "\/assets\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -53,21 +53,29 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/head.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,
@@ -75,23 +83,23 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/index.kit" : {
-      "cB" : 0,
+      "cB" : 1,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -100,7 +108,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -112,9 +120,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -127,9 +135,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -142,9 +150,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -157,9 +165,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -172,9 +180,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -187,9 +195,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -202,9 +210,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -217,9 +225,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -232,9 +240,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/layout\/_footer.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -247,8 +255,23 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -264,7 +287,7 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
