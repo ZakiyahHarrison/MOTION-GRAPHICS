@@ -18,25 +18,12 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/deploy\/css\/styles-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/hero-page-animation\/deploy\/img\/hero.jpeg" : {
       "ft" : 16384,
       "iS" : 656640,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/img\/hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/hero-page-animation\/deploy\/img\/hero.jpg" : {
-      "ft" : 16384,
-      "iS" : 308409,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/deploy\/img\/hero.jpg",
@@ -66,7 +53,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/deploy\/index.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/hero-page-animation\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
@@ -75,17 +62,25 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/deploy\/js\/scripts-min-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/hero-page-animation\/dev\/content\/hero.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/hero-page-animation\/dev\/content\/hero.html",
+      "oF" : 0
     },
     "\/hero-page-animation\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/content\/hero.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/hero-page-animation\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -93,15 +88,23 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/global\/footer.html",
+      "oF" : 1
+    },
+    "\/hero-page-animation\/dev\/global\/head.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/hero-page-animation\/dev\/global\/head.html",
       "oF" : 0
     },
     "\/hero-page-animation\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/global\/head.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/hero-page-animation\/dev\/global\/header.kit" : {
       "cB" : 0,
@@ -109,23 +112,15 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/global\/header.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/hero-page-animation\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/hero-page-animation\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/hero-page-animation\/dev\/global\/scripts.html",
+      "oF" : 1
     },
     "\/hero-page-animation\/dev\/index.kit" : {
       "cB" : 0,
@@ -133,7 +128,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/index.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/hero-page-animation\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -142,7 +137,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -154,9 +149,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -169,12 +164,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/hero-page-animation\/dev\/scss\/base\/_typography.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_typography-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/hero-page-animation\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
@@ -184,9 +191,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -199,9 +206,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -214,9 +221,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_forms.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -229,9 +236,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_navigation.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -244,9 +251,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/helpers\/_mixins.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -259,9 +266,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -274,9 +281,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/layout\/_footer.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -289,12 +296,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/hero-page-animation\/dev\/scss\/sections\/_hero.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/hero-page-animation\/dev\/scss\/sections\/_hero-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/hero-page-animation\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
@@ -304,12 +323,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/sections\/_hero.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/hero-page-animation\/dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/hero-page-animation\/dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/hero-page-animation\/dev\/scss\/styles.scss" : {
       "aP" : 0,
@@ -321,7 +352,7 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -330,21 +361,21 @@
       "ft" : 65536,
       "oA" : 2,
       "oAP" : "\/hero-page-animation\/node_modules",
-      "oF" : 0
+      "oF" : 1
     },
     "\/hero-page-animation\/package-lock.json" : {
       "ft" : 524288,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/package-lock-min.json",
-      "oF" : 0,
+      "oF" : 1,
       "oO" : 1,
       "oS" : 1
     },
     "\/hero-page-animation\/package.json" : {
       "ft" : 524288,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/hero-page-animation\/package-min.json",
-      "oF" : 0,
+      "oF" : 1,
       "oO" : 1,
       "oS" : 1
     }
