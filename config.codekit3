@@ -21,7 +21,7 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/hero-page-animation\/deploy\/img\/hero.jpeg" : {
+    "\/hero-page-animation\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 656640,
       "jF" : 0,
@@ -91,6 +91,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/hero-page-animation\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/hero-page-animation\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/hero-page-animation\/dev\/index.html",
       "oF" : 0
     },
     "\/hero-page-animation\/dev\/index.kit" : {
