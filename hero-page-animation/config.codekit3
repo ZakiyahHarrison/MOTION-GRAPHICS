@@ -9,7 +9,7 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/hero-page-animation\/deploy\/css\/styles.css" : {
+    "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -17,16 +17,16 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/css\/styles-min.css",
+      "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/hero-page-animation\/deploy\/img\/hero.jpg" : {
+    "\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 308409,
+      "iS" : 98619,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/img\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -34,85 +34,85 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/hero-page-animation\/deploy\/index.html" : {
+    "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/hero-page-animation\/deploy\/js\/scripts-min.js" : {
+    "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/js\/scripts-min-min.js",
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/hero-page-animation\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/hero-page-animation\/dev\/global\/footer.kit" : {
+    "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/global\/footer.html",
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
-    "\/hero-page-animation\/dev\/global\/head.kit" : {
+    "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/global\/head.html",
+      "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
-    "\/hero-page-animation\/dev\/global\/header.kit" : {
+    "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/global\/header.html",
+      "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
-    "\/hero-page-animation\/dev\/global\/scripts.kit" : {
+    "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/global\/scripts.html",
+      "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
-    "\/hero-page-animation\/dev\/index.kit" : {
+    "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
-    "\/hero-page-animation\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+    "\/dev\/js\/scripts.js" : {
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/base\/_base.scss" : {
+    "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -121,13 +121,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_base.css",
+      "oAP" : "\/dev\/scss\/base\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/base\/_normalize.scss" : {
+    "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -136,13 +136,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_normalize.css",
+      "oAP" : "\/dev\/scss\/base\/_normalize.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/base\/_typography.scss" : {
+    "\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -151,13 +151,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/base\/_typography.css",
+      "oAP" : "\/dev\/scss\/base\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/components\/_buttons.scss" : {
+    "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -166,13 +166,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/dev\/scss\/components\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/components\/_forms.scss" : {
+    "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -181,13 +181,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_forms.css",
+      "oAP" : "\/dev\/scss\/components\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/components\/_navigation.scss" : {
+    "\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -196,13 +196,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/dev\/scss\/components\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/helpers\/_mixins.scss" : {
+    "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -211,13 +211,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/helpers\/_mixins.css",
+      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -226,13 +226,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/layout\/_footer.scss" : {
+    "\/dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -241,13 +241,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/layout\/_footer.css",
+      "oAP" : "\/dev\/scss\/layout\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/layout\/_header.scss" : {
+    "\/dev\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -256,13 +256,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/layout\/_header.css",
+      "oAP" : "\/dev\/scss\/layout\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/sections\/_hero.scss" : {
+    "\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -271,13 +271,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/dev\/scss\/styles.scss" : {
+    "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -286,357 +286,30 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/node_modules" : {
+    "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
-      "oAP" : "\/hero-page-animation\/node_modules",
+      "oAP" : "\/node_modules",
       "oF" : 0
     },
-    "\/hero-page-animation\/package-lock.json" : {
+    "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/package-lock-min.json",
+      "oAP" : "\/package-lock-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/hero-page-animation\/package.json" : {
+    "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/hero-page-animation\/package-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/week 2 demo\/deploy\/css\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/deploy\/css\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/week 2 demo\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/deploy\/index.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/deploy\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/deploy\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/week 2 demo\/deploy\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/deploy\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/week 2 demo\/dev\/global\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/global\/footer.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/global\/head.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/global\/head.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/global\/head.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/global\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/global\/header.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/global\/scripts.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/global\/scripts.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/index.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/index.html",
-      "oF" : 0
-    },
-    "\/week 2 demo\/dev\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/week 2 demo\/dev\/js\/scripts.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/js\/scripts-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/base\/_base.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/base\/_normalize.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/base\/_normalize.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/base\/_typography.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/base\/_typography.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/components\/_buttons.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/components\/_buttons.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/components\/_forms.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/components\/_forms.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/components\/_navigation.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/components\/_navigation.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/helpers\/_mixins.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/helpers\/_mixins.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/helpers\/_variables.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/helpers\/_variables.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/layout\/_footer.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/layout\/_footer.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/layout\/_header.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/week 2 demo\/dev\/scss\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/week 2 demo\/dev\/scss\/styles.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/week 2 demo\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/week 2 demo\/node_modules",
-      "oF" : 0
-    },
-    "\/week 2 demo\/package-lock.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/package-lock-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
-    "\/week 2 demo\/package.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/week 2 demo\/package-min.json",
+      "oAP" : "\/package-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -650,10 +323,10 @@
   },
   "projectAttributes" : {
     "creationDate" : 669227926.75338697,
-    "displayValue" : "MOTION-GRAPHICS",
+    "displayValue" : "Motion-F22-PM-Week-2-Repeat",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-ucla",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "meme-doge",
+    "iconImageWasSetByUser" : 1
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1272,7 +945,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
