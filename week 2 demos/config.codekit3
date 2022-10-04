@@ -9,7 +9,7 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/week 2 demos\/deploy\/css\/styles.css" : {
+    "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -17,16 +17,16 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/deploy\/css\/styles-min.css",
+      "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/week 2 demos\/deploy\/img\/hero.jpg" : {
+    "\/deploy\/img\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 833978,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/deploy\/img\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -34,66 +34,66 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/week 2 demos\/deploy\/index.html" : {
+    "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/deploy\/index.html",
+      "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/week 2 demos\/deploy\/js\/scripts-min.js" : {
+    "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/deploy\/js\/scripts-min-min.js",
+      "oAP" : "\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/week 2 demos\/dev\/content\/hero.kit" : {
+    "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/week 2 demos\/dev\/content\/hero.html",
+      "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/week 2 demos\/dev\/global\/footer.kit" : {
+    "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/global\/footer.html",
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 1
     },
-    "\/week 2 demos\/dev\/global\/head.kit" : {
+    "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/global\/head.html",
+      "oAP" : "\/dev\/global\/head.html",
       "oF" : 1
     },
-    "\/week 2 demos\/dev\/global\/header.kit" : {
+    "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/global\/header.html",
+      "oAP" : "\/dev\/global\/header.html",
       "oF" : 1
     },
-    "\/week 2 demos\/dev\/global\/scripts.kit" : {
+    "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/global\/scripts.html",
+      "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 1
     },
-    "\/week 2 demos\/dev\/index.kit" : {
+    "\/dev\/index.kit" : {
       "cB" : 1,
       "ft" : 2048,
       "hM" : 0,
@@ -101,7 +101,7 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 3
     },
-    "\/week 2 demos\/dev\/js\/scripts.js" : {
+    "\/dev\/js\/scripts.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
@@ -112,7 +112,7 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/week 2 demos\/dev\/scss\/base\/_base.scss" : {
+    "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -121,13 +121,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/base\/_base.css",
+      "oAP" : "\/dev\/scss\/base\/_base.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/base\/_normalize.scss" : {
+    "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -136,13 +136,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/base\/_normalize.css",
+      "oAP" : "\/dev\/scss\/base\/_normalize.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/base\/_typography.scss" : {
+    "\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -151,13 +151,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/base\/_typography.css",
+      "oAP" : "\/dev\/scss\/base\/_typography.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/components\/_buttons.scss" : {
+    "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -166,13 +166,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/components\/_buttons.css",
+      "oAP" : "\/dev\/scss\/components\/_buttons.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/components\/_forms.scss" : {
+    "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -181,13 +181,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/components\/_forms.css",
+      "oAP" : "\/dev\/scss\/components\/_forms.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/components\/_navigation.scss" : {
+    "\/dev\/scss\/components\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -196,13 +196,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/dev\/scss\/components\/_navigation.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/helpers\/_mixins.scss" : {
+    "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -211,13 +211,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/helpers\/_mixins.css",
+      "oAP" : "\/dev\/scss\/helpers\/_mixins.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/helpers\/_variables.css" : {
+    "\/dev\/scss\/helpers\/_variables.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -225,11 +225,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/week 2 demos\/dev\/scss\/helpers\/_variables-min.css",
+      "oAP" : "\/dev\/scss\/helpers\/_variables-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/week 2 demos\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/dev\/scss\/helpers\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -238,13 +238,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/layout\/_footer.scss" : {
+    "\/dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -253,13 +253,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/layout\/_footer.css",
+      "oAP" : "\/dev\/scss\/layout\/_footer.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/layout\/_header.scss" : {
+    "\/dev\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -268,13 +268,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/week 2 demos\/dev\/scss\/layout\/_header.css",
+      "oAP" : "\/dev\/scss\/layout\/_header.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/sections\/_hero.scss" : {
+    "\/dev\/scss\/sections\/_hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -283,13 +283,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/week 2 demos\/dev\/scss\/sections\/_hero.css",
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/dev\/scss\/styles.scss" : {
+    "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -304,24 +304,24 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/week 2 demos\/node_modules" : {
+    "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
-      "oAP" : "\/week 2 demos\/node_modules",
+      "oAP" : "\/node_modules",
       "oF" : 0
     },
-    "\/week 2 demos\/package-lock.json" : {
+    "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/week 2 demos\/package-lock-min.json",
+      "oAP" : "\/package-lock-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/week 2 demos\/package.json" : {
+    "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/week 2 demos\/package-min.json",
+      "oAP" : "\/package-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
