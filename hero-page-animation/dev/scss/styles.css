@@ -398,17 +398,3 @@ textarea {
 /* =============
     Footer
 ============= */
-#hero {
-  background-image: url("..img/hero2.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: 80vh;
-  font-size: 500px;
-}
-#hero #overlay {
-  background-color: rgba(var(--blackO), 0.65);
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

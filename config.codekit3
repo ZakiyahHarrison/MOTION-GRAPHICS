@@ -34,19 +34,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/hero-page-animation\/deploy\/img\/hero2.jpeg" : {
-      "ft" : 16384,
-      "iS" : 237077,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/img\/hero2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/hero-page-animation\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -66,14 +53,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/hero-page-animation\/dev\/content\/hero.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/content\/hero.html",
-      "oF" : 0
-    },
     "\/hero-page-animation\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -89,14 +68,6 @@
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/global\/footer.html",
       "oF" : 1
-    },
-    "\/hero-page-animation\/dev\/global\/head.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/hero-page-animation\/dev\/global\/head.html",
-      "oF" : 0
     },
     "\/hero-page-animation\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -122,6 +93,14 @@
       "oAP" : "\/hero-page-animation\/dev\/global\/scripts.html",
       "oF" : 1
     },
+    "\/hero-page-animation\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/hero-page-animation\/dev\/index.html",
+      "oF" : 0
+    },
     "\/hero-page-animation\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -129,6 +108,17 @@
       "oA" : 0,
       "oAP" : "\/hero-page-animation\/dev\/index.html",
       "oF" : 1
+    },
+    "\/hero-page-animation\/dev\/js\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/hero-page-animation\/dev\/js\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/hero-page-animation\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -197,6 +187,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/hero-page-animation\/dev\/scss\/components\/_buttons.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/hero-page-animation\/dev\/scss\/components\/_buttons-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/hero-page-animation\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
