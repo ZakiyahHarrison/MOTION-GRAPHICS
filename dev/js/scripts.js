@@ -16,11 +16,24 @@ function heroanimation(){
 var maintl=gsap.timeline();
 maintl.add(heroanimation());
 
+var herosizenumber = 1;
+
+let mm = gsap.matchMedia();
+
+mm.add("(min-width: 768px)", () => {
+  // desktop setup code here...
+  herosizenumber = 2;
+});
+
+mm.add("(max-width: 767px)", () => {
+  // mobile setup code here...
+  herosizenumber = 1.25;
+});
 
 let trailBtn = document.querySelector("#trails-btn");
 
 var buttonanimation = gsap.timeline({paused:true});
-buttonanimation.to("#trails-btn",{duration:1, scale:2},"goaway")
+buttonanimation.to("#trails-btn",{duration:1, scale:herosizenumber},"goaway")
     .to("#trails-btn i",{duration: 1, rotateY:180})
     .to("#first-line",{duration: 1, alpha:0, y:50},"goaway")
     .to("#second-line",{duration: 1, alpha:0, y:20},"goaway");
