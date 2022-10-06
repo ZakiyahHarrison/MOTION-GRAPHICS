@@ -26,8 +26,10 @@ html {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -62,9 +64,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -72,8 +77,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -90,9 +97,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -110,8 +120,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -161,10 +173,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -172,7 +188,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -181,7 +198,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -230,12 +248,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -258,8 +282,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -275,8 +301,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -291,8 +319,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -334,6 +364,7 @@ template {
     Typography
 ============= */
 h1, h2, h3, h4 {
+  font-family: Rametto;
   margin: 0;
 }
 
@@ -368,86 +399,25 @@ textarea {
     Footer
 ============= */
 #hero {
-  background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
   height: 80vh;
+  background-image: url("../img/hero.jpg");
 }
 #hero #overlay {
-  background-color: rgba(var(--blackO), 0.65);
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-@media (min-width: 1024px) {
-  #hero #overlay section {
-    display: flex;
-  }
+#hero #overlay h1 {
+  font-family: Carter One;
+  font-size: 50px;
 }
-#hero #overlay section div h1 {
-  color: var(--white);
-  font-family: "Gruppo", cursive;
-  font-weight: 400;
-  font-size: 1.875rem;
-}
-@media (min-width: 768px) {
-  #hero #overlay section div h1 {
-    font-size: 3.125rem;
-  }
-}
-@media (min-width: 1024px) {
-  #hero #overlay section div h1 {
-    font-size: 5.625rem;
-  }
-}
-#hero #overlay section div h4 {
-  color: var(--white);
-  font-family: "Gruppo", cursive;
-  font-weight: 400;
-  font-size: 1.25rem;
-}
-@media (min-width: 768px) {
-  #hero #overlay section div h4 {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 1024px) {
-  #hero #overlay section aside {
-    display: flex;
-    align-items: center;
-    margin-left: 5vw;
-  }
-}
-#hero #overlay section aside button {
-  border: none;
-  background-color: var(--red);
-  color: var(--white);
-  padding: 20px 15px;
-  font-size: 1.25rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  margin-top: 24px;
-  cursor: pointer;
-  margin-right: 4px;
-}
-@media (min-width: 768px) {
-  #hero #overlay section aside button {
-    font-size: 1.4375rem;
-    padding: 20px;
-  }
-}
-@media (min-width: 768px) {
-  #hero #overlay section aside button {
-    font-size: 1.5625rem;
-    padding: 30px;
-  }
-}
-#hero #overlay section aside button i {
-  margin-left: 16px;
-}
-#hero #overlay section aside form input {
-  border: none;
-  padding: 10px;
-  box-sizing: border-box;
+#hero #overlay #button {
+  background-color: --green;
+  color: --white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 18px;
 }
