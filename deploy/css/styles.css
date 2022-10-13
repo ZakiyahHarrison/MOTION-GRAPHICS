@@ -401,23 +401,32 @@ textarea {
 #hero {
   background-size: cover;
   background-position: center;
-  height: 80vh;
-  background-image: url("../img/hero.jpg");
+  height: 100vh;
+  background-image: url("../img/hero2.jpg");
 }
 #hero #overlay {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 20vh;
+  padding-top: 20vh;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 #hero #overlay h1 {
-  font-family: Carter One;
-  font-size: 50px;
+  font-family: Quicksand;
+  font-size: 80px;
 }
-#hero #overlay #button {
+#hero #overlay h2 {
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+  font-family: Quicksand;
+  font-size: 35px;
+}
+#hero #overlay button {
   background-color: --green;
   color: --white;
   padding: 15px 32px;
   text-align: center;
   font-size: 18px;
+  cursor: pointer;
 }
