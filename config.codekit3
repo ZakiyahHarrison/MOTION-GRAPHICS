@@ -87,6 +87,22 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/section1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section2.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer 2.kit" : {
       "cB" : 0,
       "ft" : 2048,
