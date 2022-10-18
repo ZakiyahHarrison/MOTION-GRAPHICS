@@ -558,14 +558,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/hero-page-animation\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/hero-page-animation\/deploy\/index.html",
-      "oF" : 0
-    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,

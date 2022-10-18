@@ -21,16 +21,53 @@
                 padding-left: 10vh;
                 
             }
+            #form{
+                @include lg{
+                    margin-left: 0vw;
+                    align-items: center;
+                    
+                }
+    
+                @include md{
+                    padding-left: 10vh;
+                }
+                button{
+                    color:white;
+                    background-color: green;
+                    padding: 20px;
+                    text-align:center;
+                    align-items: center;
+                    font-size: 20;
+                    cursor: pointer;
+                    font-family: Quicksand;
+    
+                    @include md{
+                        font-size: rem-calc(15);
+                        padding: 15px;
+                    }
+    
+                    @include md{
+                        
+                        padding: 15px;
+                    }
+    
+                    i {
+                        margin-left: 16px;
+                    }
+    
+                }
+                
+            }
             div{
                 h1{
                     font-family: Quicksand;
-                    font-size: rem-calc(80px);
+                    font-size: rem-calc(100px);
                     line-height: rem-calc(100px);
                     
                     @include md{
                         font-size: rem-calc (40px);
                         line-height: rem-calc (30px);
-                        padding-left: 10vh;
+                        
                     }
 
                     @include lg{
@@ -41,13 +78,13 @@
                 }
 
                 h2{
-                    padding-top: 3vh;
-                    padding-bottom: 1vh;
+                    padding-top: 1vh;
+                    padding-bottom: 2vh;
                     font-family: Quicksand;
                     font-size: rem-calc(35px);
 
                     @include md{
-                        padding-left: 10vh;
+                       
                     }
                 }
         
@@ -55,42 +92,7 @@
             }
         }
         
-        aside{
-            @include lg{
-                margin-left: 0vw;
-                align-items: center;
-            }
-
-            @include md{
-                padding-left: 10vh;
-            }
-            button{
-                color:white;
-                background-color: green;
-                padding: 20px;
-                text-align:center;
-                align-items: center;
-                font-size: 20;
-                cursor: pointer;
-                font-family: Quicksand;
-
-                @include md{
-                    font-size: rem-calc(15);
-                    padding: 15px;
-                }
-
-                @include md{
-                    
-                    padding: 15px;
-                }
-
-                i {
-                    margin-left: 16px;
-                }
-
-            }
-            
-        }
+        
     
     }
     

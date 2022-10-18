@@ -363,9 +363,15 @@ template {
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4 {
-  font-family: Rametto;
+h1, h2, h4 {
+  font-family: Quicksand;
   margin: 0;
+}
+
+h3 {
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: xx-large;
 }
 
 /* =============
@@ -417,47 +423,18 @@ textarea {
     padding-left: 10vh;
   }
 }
-#hero #overlay section div h1 {
-  font-family: Quicksand;
-  font-size: 5rem;
-  line-height: 6.25rem;
-}
-@media (min-width: 768px) {
-  #hero #overlay section div h1 {
-    font-size: rem-calc 40px;
-    line-height: rem-calc 30px;
-    padding-left: 10vh;
-  }
-}
 @media (min-width: 1024px) {
-  #hero #overlay section div h1 {
-    font-size: rem-calc 50px;
-    line-height: rem-calc 100px;
-  }
-}
-#hero #overlay section div h2 {
-  padding-top: 3vh;
-  padding-bottom: 1vh;
-  font-family: Quicksand;
-  font-size: 2.1875rem;
-}
-@media (min-width: 768px) {
-  #hero #overlay section div h2 {
-    padding-left: 10vh;
-  }
-}
-@media (min-width: 1024px) {
-  #hero #overlay aside {
+  #hero #overlay section #form {
     margin-left: 0vw;
     align-items: center;
   }
 }
 @media (min-width: 768px) {
-  #hero #overlay aside {
+  #hero #overlay section #form {
     padding-left: 10vh;
   }
 }
-#hero #overlay aside button {
+#hero #overlay section #form button {
   color: white;
   background-color: green;
   padding: 20px;
@@ -468,21 +445,68 @@ textarea {
   font-family: Quicksand;
 }
 @media (min-width: 768px) {
-  #hero #overlay aside button {
+  #hero #overlay section #form button {
     font-size: 0.9375rem;
     padding: 15px;
   }
 }
 @media (min-width: 768px) {
-  #hero #overlay aside button {
+  #hero #overlay section #form button {
     padding: 15px;
   }
 }
-#hero #overlay aside button i {
+#hero #overlay section #form button i {
   margin-left: 16px;
 }
-
+#hero #overlay section div h1 {
+  font-family: Quicksand;
+  font-size: 6.25rem;
+  line-height: 6.25rem;
+}
+@media (min-width: 768px) {
+  #hero #overlay section div h1 {
+    font-size: rem-calc 40px;
+    line-height: rem-calc 30px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero #overlay section div h1 {
+    font-size: rem-calc 50px;
+    line-height: rem-calc 100px;
+  }
+}
+#hero #overlay section div h2 {
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  font-family: Quicksand;
+  font-size: 2.1875rem;
+}
 #section1 {
   background-color: tan;
-  height: 80vh;
+  display: flexbox;
+  padding: 10vh;
+}
+#section1 #title1 {
+  font-family: Quicksand;
+  font-size: 3.75rem;
+  line-height: 6.25rem;
+  padding-bottom: 8vh;
+  align-items: center;
+}
+#section1 #section-1-content {
+  display: grid;
+  grid-template-columns: 60% auto;
+  gap: 40px;
+}
+#section1 #section-1-content aside {
+  height: 50vh;
+  background-image: url("../img/pic1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#section1 #section-1-content #text1 {
+  display: flex;
+  align-items: center;
+  color: black;
+  height: 100%;
 }

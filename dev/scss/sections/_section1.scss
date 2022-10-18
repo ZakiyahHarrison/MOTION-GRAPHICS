@@ -1,5 +1,40 @@
 #section1{
     background-color: tan;
-    height: 80vh;
+    display: flexbox;
+    padding: 10vh;
+
+
+    #title1{
+        font-family: Quicksand;
+        font-size: rem-calc(60px);
+        line-height: rem-calc(100px);
+        padding-bottom: 8vh;
+        align-items: center;
+     
+    }
+
+    #section-1-content{
+        display: grid;
+        grid-template-columns: 60% auto;
+        gap:40px;
+
+        aside{
+            height: 50vh;
+            background-image: url("../img/pic1.jpg");
+            background-size: cover;
+            background-position: center;
+    
+        }
+
+        #text1{
+            display: flex;
+            align-items: center;
+            color: black;
+            height: 100%;
+        }
+    }
+
+
+    
     
 }
