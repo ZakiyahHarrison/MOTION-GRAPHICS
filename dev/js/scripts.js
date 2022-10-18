@@ -1,4 +1,11 @@
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+
+
+
 
 
 
@@ -21,10 +28,6 @@ function heroAnimation(){
     .from("button",{duration:1.5,y:100, alpha: 0} ,"-0.25" )
     .from("h2",{duration:1.5,y:-200, alpha: 0} ,"-0.25" )
     });
-
-
-
-
 
     return tl;
 }

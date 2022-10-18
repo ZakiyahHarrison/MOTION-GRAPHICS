@@ -481,3 +481,8 @@ textarea {
 #hero #overlay aside button i {
   margin-left: 16px;
 }
+
+#pic1 {
+  background-color: aqua;
+  height: 80vh;
+}
