@@ -4,6 +4,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
+function section1Animation (){
+   var tl = gsap.timeline({scrollTrigger:{trigger:"#pic1", scrub: true, markers: false, end:"top 20%", start: "top 70%" }}); 
+   tl.from("#pic1",{duration:1, x:-300, alpha:0});
+
+   return tl;
+}
+
 
 
 
@@ -33,7 +40,9 @@ function heroAnimation(){
 }
 
 var mainTL = gsap.timeline();
-mainTL.add(heroAnimation);
+mainTL.add(heroAnimation)
+.add(section1Animation);
+
 
 
 
