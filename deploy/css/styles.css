@@ -510,3 +510,31 @@ textarea {
   color: black;
   height: 100%;
 }
+
+#section2 {
+  background-color: green;
+  display: grid;
+  grid-template-rows: 50px 50px;
+  gap: 10px;
+  height: 200vh;
+}
+#section2 #gallery1 {
+  background-image: url("../img/plant2.jpg");
+  background-size: 50vh;
+  background-position: center;
+}
+#section2 #gallery2 {
+  background-image: url("../img/plant3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#section2 #gallery3 {
+  background-image: url("../img/plant4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#section2 #gallery4 {
+  background-image: url("../img/plant5.jpg");
+  background-size: cover;
+  background-position: center;
+}
