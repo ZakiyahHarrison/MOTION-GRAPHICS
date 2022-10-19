@@ -6,14 +6,20 @@ gsap.registerPlugin(ScrollTrigger);
 
 function section1Animation (){
    var tl = gsap.timeline({scrollTrigger:{trigger:"#section-1-content", scrub: true, markers: false, end:"top 40%", start: "top 70%" }}); 
-   tl.from("aside",{ duration:3, x:-300, alpha:0});
-   tl.from("#text1",{duration:3, x:50, alpha:0});
+   tl.from("aside",{ duration:5, x:-300, alpha:0});
+   tl.from("#text1",{duration:5, x:50, alpha:0});
 
    return tl;
 }
 
 
-
+function section3Animation (){
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#section-3-content", scrub: true, markers: false, end:"top 20%", start: "top 30%" }}); 
+    //tl.from("aside",{duration:5, alpha:0});
+    tl.from("#text2",{duration:5, x:50, alpha:0});
+ 
+    return tl;
+ }
 
 
 
@@ -41,7 +47,8 @@ function heroAnimation(){
 
 var mainTL = gsap.timeline();
 mainTL.add(heroAnimation())
-.add(section1Animation());
+.add(section1Animation())
+.add(section3Animation());
 
 
 
