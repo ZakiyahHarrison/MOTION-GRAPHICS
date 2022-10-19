@@ -17,6 +17,7 @@ function section3Animation (){
     var tl = gsap.timeline({scrollTrigger:{trigger:"#section-3-content", scrub: true, markers: false, end:"top 20%", start: "top 30%" }}); 
     //tl.from("aside",{duration:5, alpha:0});
     tl.from("#text2",{duration:5, x:50, alpha:0});
+  
  
     return tl;
  }

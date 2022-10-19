@@ -482,7 +482,7 @@ textarea {
   font-size: 2.1875rem;
 }
 #section1 {
-  background-color: tan;
+  background-color: whitesmoke;
   display: flexbox;
   padding: 10vh;
 }
@@ -514,13 +514,14 @@ textarea {
 #section2 {
   background-color: green;
   display: grid;
-  grid-template-rows: 50px 50px;
-  gap: 10px;
-  height: 200vh;
+  grid-template-columns: 48% auto;
+  padding: 10vh;
+  gap: 10vh;
+  height: 125vh;
 }
 #section2 #gallery1 {
-  background-image: url("../img/plant2.jpg");
-  background-size: 50vh;
+  background-image: url("../img/plant1.jpg");
+  background-size: cover;
   background-position: center;
 }
 #section2 #gallery2 {
