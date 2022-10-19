@@ -512,7 +512,7 @@ textarea {
 }
 
 #section2 {
-  background-color: green;
+  background-color: #9DC183;
   display: grid;
   grid-template-columns: 48% auto;
   padding: 10vh;
