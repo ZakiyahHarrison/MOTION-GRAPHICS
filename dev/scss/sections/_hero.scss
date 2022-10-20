@@ -3,8 +3,9 @@
    
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     background-image: url('../img/hero2.jpg');
+    font-size: xx-large;
     
 
 
@@ -61,8 +62,8 @@
             div{
                 h1{
                     font-family: Quicksand;
-                    font-size: rem-calc(100px);
-                    line-height: rem-calc(100px);
+                    font-size: rem-calc(180px);
+                    line-height: rem-calc(160px);
                     
                     @include md{
                         font-size: rem-calc (40px);
@@ -81,7 +82,7 @@
                     padding-top: 1vh;
                     padding-bottom: 2vh;
                     font-family: Quicksand;
-                    font-size: rem-calc(35px);
+                    font-size: rem-calc(65px);
 
                     @include md{
                        

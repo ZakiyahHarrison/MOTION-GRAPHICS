@@ -12,6 +12,15 @@ function section1Animation (){
    return tl;
 }
 
+function section2Animation (){
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#section2", scrub: true, markers: false, end:"top 20%", start: "top 70%" }}); 
+    tl.from("#gallery1",{ duration:10, y:-300, alpha:0});
+    tl.from("#gallery2",{duration:10, x:300, alpha:0});
+    tl.from("#gallery3",{ duration:10, x:-300, alpha:0});
+    tl.from("#gallery4",{duration:10, y:300, alpha:0});
+ 
+    return tl;
+ }
 
 function section3Animation (){
     var tl = gsap.timeline({scrollTrigger:{trigger:"#section-3-content", scrub: true, markers: false, end:"top 20%", start: "top 30%" }}); 
@@ -20,7 +29,7 @@ function section3Animation (){
   
  
     return tl;
- }
+}
 
 
 
@@ -49,6 +58,7 @@ function heroAnimation(){
 var mainTL = gsap.timeline();
 mainTL.add(heroAnimation())
 .add(section1Animation())
+.add(section2Animation())
 .add(section3Animation());
 
 
