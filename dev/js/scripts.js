@@ -25,9 +25,9 @@ function section2Animation (){
 
 
 function section3Animation (){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"#section-3-content", scrub: true, markers: false, end:"top 40%", start: "top 70%" }}); 
-   // tl.from("aside",{duration:5, alpha:0});
-    tl.from("#text2",{duration:5, x:50, alpha:0});
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#section-3-content", scrub: true, markers: true, end:"top 20%", start: "top 60%" }}); 
+    //tl.from("aside",{duration:5, y:100, alpha:0});
+    tl.from("#text2",{duration:5, z:100, alpha:0});
 
  
     return tl;
@@ -69,8 +69,8 @@ let chars = mySplitText.chars;
 
 
 function welcomeAnimation (){
-   var tl = gsap.timeline({scrollTrigger:{trigger:".split", scrub: true, markers: true, start: "top 80%" }}); 
-   tl.from(chars, {yPercent: 130, stagger: 0.05, duration: 1, ease: "back.out"})
+   var tl = gsap.timeline({scrollTrigger:{trigger:".split", scrub: true, markers: false, start: "top 80%" }}); 
+   tl.from(chars, {yPercent: 130, stagger: 0.03, duration: 1, ease: "back.out"})
 
    return tl;
 }
