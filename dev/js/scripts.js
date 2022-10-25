@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 function section1Animation (){
    var tl = gsap.timeline({scrollTrigger:{trigger:"#section-1-content", scrub: true, markers: false, end:"top 40%", start: "top 70%" }}); 
-   tl.from("aside",{ duration:5, x:-300, alpha:0});
+   //tl.from("aside",{ duration:5, x:-300, alpha:0});
    tl.from("#text1",{duration:5, x:50, alpha:0});
 
    return tl;
@@ -14,23 +14,23 @@ function section1Animation (){
 
 function section2Animation (){
     var tl = gsap.timeline({scrollTrigger:{trigger:"#section2", scrub: true, markers: false, end:"top 20%", start: "top 70%" }}); 
-    tl.from("#gallery1",{ duration:10, y:-300, alpha:0});
+    tl.from("#gallery1",{duration:10, y:-300, alpha:0});
     tl.from("#gallery2",{duration:10, x:300, alpha:0});
-    tl.from("#gallery3",{ duration:10, x:-300, alpha:0});
+    tl.from("#gallery3",{duration:10, x:-300, alpha:0});
     tl.from("#gallery4",{duration:10, y:300, alpha:0});
  
     return tl;
- }
+}
+
 
 function section3Animation (){
     var tl = gsap.timeline({scrollTrigger:{trigger:"#section-3-content", scrub: true, markers: false, end:"top 20%", start: "top 30%" }}); 
     //tl.from("aside",{duration:5, alpha:0});
     tl.from("#text2",{duration:5, x:50, alpha:0});
-  
+
  
     return tl;
 }
-
 
 
 function heroAnimation(){
@@ -55,14 +55,20 @@ function heroAnimation(){
     return tl;
 }
 
+
+function vinesectionAnimation (){
+    var tl= gsap.timeline({scrollTrigger:{trigger:"#vines", scrub: true, markers: true, end:"bottom 80%", start: "top 30%" }});
+    tl.from("#bg-img", {duration:10, clipPath:"inset(0 50%)"})
+    return tl;
+}
+
+
 var mainTL = gsap.timeline();
 mainTL.add(heroAnimation())
 .add(section1Animation())
 .add(section2Animation())
-.add(section3Animation());
-
-
-
+.add(section3Animation())
+.add(vinesectionAnimation());
 
 
 

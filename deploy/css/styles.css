@@ -571,3 +571,27 @@ textarea {
   font-size: 40px;
   line-height: 3.75rem;
 }
+
+#vines {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#vines > div {
+  text-align: center;
+  color: grey;
+}
+#vines > div h1 {
+  font-family: Quicksand;
+  font-weight: 100;
+  font-size: 12.5rem;
+}
+#vines #bg-img {
+  background-image: url("../img/vine.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

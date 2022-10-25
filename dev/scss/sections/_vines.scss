@@ -1,0 +1,29 @@
+#vines{
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    >div{
+        text-align: center;
+        color: grey;
+
+        h1{
+            font-family: Quicksand;
+            font-weight: 100;
+            font-size: rem-calc(200);
+        }
+    }
+#bg-img{
+    background-image: url("../img/vine.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+   // clip-path: inset(10% 30% 5% 10%)
+
+}
+
+}
