@@ -595,3 +595,19 @@ textarea {
   width: 100%;
   position: absolute;
 }
+
+#welcome {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  overflow: hidden;
+  border: solid 2pt;
+  font-size: 100px;
+  line-height: 0.8;
+  margin: 0;
+  padding-top: 3rem;
+}

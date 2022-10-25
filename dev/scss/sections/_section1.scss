@@ -5,16 +5,17 @@
    
 
 
-    #title1{
+   #title1{
         font-family: Quicksand;
         font-size: rem-calc(60px);
         line-height: rem-calc(100px);
         padding-bottom: 8vh;
         align-items: center;
      
-    }
+   }
 
     #section-1-content{
+        
         display: grid;
         grid-template-columns: 60% auto;
         gap:40px;
@@ -36,6 +37,5 @@
     }
 
 
-    
     
 }
