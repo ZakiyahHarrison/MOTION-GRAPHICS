@@ -1,7 +1,8 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import {SplitText} from "gsap/SplitText";
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(SplitText, ScrollTrigger);
 
 
 function section1Animation (){
@@ -13,7 +14,7 @@ function section1Animation (){
 }
 
 function section2Animation (){
-    var tl = gsap.timeline({scrollTrigger:{trigger:"#section2", scrub: true, markers: true, end:"top 10%", start: "top 60%" }}); 
+    var tl = gsap.timeline({scrollTrigger:{trigger:"#section2", scrub: true, markers: false, end:"top 10%", start: "top 60%" }}); 
     tl.from("#gallery1",{duration:10, y:-800, alpha:0});
     tl.from("#gallery2",{duration:10, x:800, alpha:0});
     tl.from("#gallery3",{duration:10, x:-800, alpha:0});
@@ -62,6 +63,17 @@ function vinesectionAnimation (){
     return tl;
 }
 
+let mySplitText = new SplitText(".split", {type: "chars"});
+let chars = mySplitText.chars;
+//gsap.from(chars, {yPercent: 130, stagger: 0.1, duration: 1.5, ease: "back.out"
+
+
+function welcomeAnimation (){
+   var tl = gsap.timeline({scrollTrigger:{trigger:".split", scrub: true, markers: true, start: "top 80%" }}); 
+   tl.from(chars, {yPercent: 130, stagger: 0.05, duration: 1, ease: "back.out"})
+
+   return tl;
+}
 
 
 
@@ -70,6 +82,7 @@ mainTL.add(heroAnimation())
 .add(section1Animation())
 .add(section2Animation())
 .add(section3Animation())
+.add(welcomeAnimation())
 .add(vinesectionAnimation());
 
 

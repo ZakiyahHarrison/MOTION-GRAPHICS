@@ -1,13 +1,13 @@
 #welcome{
-    height: 50vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
 }
 
 .container{
     overflow: hidden;
-    border: solid 2pt;
     font-size: 100px; 
     line-height: 0.8;
     margin: 0;

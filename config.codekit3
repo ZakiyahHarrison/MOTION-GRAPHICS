@@ -662,14 +662,6 @@
       "oAP" : "\/node_modules",
       "oF" : 0
     },
-    "\/package-lock 2.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/package-lock 2-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
-    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
