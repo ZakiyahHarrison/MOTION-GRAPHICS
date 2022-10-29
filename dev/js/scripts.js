@@ -12,8 +12,9 @@ function simpleMotion(){
 
 function patternMotion(){
     var tl = gsap.timeline()
-    tl.from(".odd",{duration:0.5, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"} )
-    tl.from(".even",{duration:0.5, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"} )
+    tl.from(".green",{duration:0.50, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"}, "playPattern"  )
+    tl.from(".lime",{duration:0.90, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"}, "playPattern" )
+    tl.from(".blue",{duration:0.5, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"} )
     return tl;
 }
 
