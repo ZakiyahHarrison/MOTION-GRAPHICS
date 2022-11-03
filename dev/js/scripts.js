@@ -17,7 +17,7 @@ function simpleMotion(){
 
 
 function patternMotion(){
-    var tl = gsap.timeline()
+    var tl = gsap.timeline({repeatDelay:2,repeat:2})
     tl.from(".green",{duration:0.50, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"}, "playPattern"  )
     tl.from(".lime",{duration:0.90, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"}, "playPattern" )
     tl.from(".blue",{duration:0.6, rotate:180, drawSVG:0, transformOrigin: "center"}, "playPattern" )
@@ -26,7 +26,7 @@ function patternMotion(){
 }
 
 function UIMotion(){
-    var tl = gsap.timeline ({repeat:3})
+    var tl = gsap.timeline ({repeatDelay:1,repeat:3})
     tl.fromTo("#blue",{drawSVG:"75% 75%"},{duration:1, drawSVG:"100%"},"drawOutline")
     tl.fromTo("#red",{drawSVG:"15% 15%"},{duration:2, drawSVG:"100%"},"drawOutline")
     tl.fromTo("#purple",{drawSVG:"25% 25%"},{duration:1.5, drawSVG:"100%"},"drawOutline")
