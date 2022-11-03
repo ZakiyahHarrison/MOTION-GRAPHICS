@@ -26,10 +26,11 @@ function patternMotion(){
 }
 
 function UIMotion(){
-    var tl = gsap.timeline ()
-    tl.fromTo("#outline",{drawSVG:"100% 100%"},{duration:2, drawSVG:"100% 0%"},"drawOutline")
-    .from("#box",{duration:5, scaleX:0})
-    .from("#line",{duration:3, drawSVG:"0%"})
+    var tl = gsap.timeline ({repeat:3})
+    tl.fromTo("#blue",{drawSVG:"75% 75%"},{duration:1, drawSVG:"100%"},"drawOutline")
+    tl.fromTo("#red",{drawSVG:"15% 15%"},{duration:2, drawSVG:"100%"},"drawOutline")
+    tl.fromTo("#purple",{drawSVG:"25% 25%"},{duration:1.5, drawSVG:"100%"},"drawOutline")
+
     return tl;
 }
 
