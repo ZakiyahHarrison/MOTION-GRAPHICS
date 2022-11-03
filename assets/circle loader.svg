@@ -1,0 +1,9 @@
+<svg width="623" height="535" viewBox="0 0 623 535" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="circle loader">
+<rect width="623" height="535" fill="white"/>
+<path id="green" d="M460 268C460 350.29 393.29 417 311 417" stroke="#00FF38" stroke-width="7"/>
+<path id="purple" d="M162 268C162 185.71 228.71 119 311 119" stroke="#6E00A2" stroke-width="7"/>
+<path id="red" d="M311 417C228.71 417 162 350.29 162 268" stroke="#FF0000" stroke-width="7"/>
+<path id="blue" d="M460 268C460 185.71 393.29 119 311 119" stroke="#0066FF" stroke-width="7"/>
+</g>
+</svg>
