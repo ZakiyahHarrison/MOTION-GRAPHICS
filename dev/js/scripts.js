@@ -15,7 +15,6 @@ function simpleMotion(){
 }
 
 
-
 function patternMotion(){
     var tl = gsap.timeline({repeatDelay:2,repeat:2})
     tl.from(".green",{duration:0.50, rotate:180, drawSVG:0, stagger: 0.25, transformOrigin: "center"}, "playPattern"  )
