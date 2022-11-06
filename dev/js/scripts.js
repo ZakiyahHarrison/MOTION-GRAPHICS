@@ -38,17 +38,17 @@ function UIMotion(){
 }
 
 function dataMotion(){
-var tl = gsap.timeline({repeat:2})
-tl.from("#dot3",{opacity:0, yoyo:true, duration:1, reversed:true})
+var tl = gsap.timeline({repeat:1.5})
+tl.from("#dot1",{opacity:0, yoyo:true, duration:1, reversed:true})
     .from("#dot2",{opacity:0, yoyo:true, duration:1, reversed:true})
-    .from("#dot1",{opacity:0, yoyo:true, duration:1, reversed:true})
+    .from("#dot3",{opacity:0, yoyo:true, duration:1, reversed:true})
     return tl;
 }
 
 var mainTL = gsap.timeline();
 mainTL.add(simpleMotion())
 .add(patternMotion())
-.add(dataMotion())
-.add(UIMotion());
+.add(dataMotion(),"doSomething")
+    .add(UIMotion(),"doSomething");
 
 GSDevTools.create();
