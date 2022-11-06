@@ -24,18 +24,31 @@ function patternMotion(){
     return tl;
 }
 
+
+
 function UIMotion(){
     var tl = gsap.timeline ()
     tl.fromTo("#blue",{drawSVG:"75% 75%"},{duration:4, drawSVG:"100%"},"drawOutline")
     tl.fromTo("#red",{drawSVG:"15% 15%"},{duration:5.5, drawSVG:"100%"},"drawOutline")
     tl.fromTo("#purple",{drawSVG:"45% 45%"},{duration:2.5, drawSVG:"100%"},"drawOutline")
+    tl.from("#dot3",{opacity:0, yoyo:true, duration:1, reversed:true})
+    tl.from("#dot2",{opacity:0, yoyo:true, duration:1, reversed:true})
+    tl.from("#dot1",{opacity:0, yoyo:true, duration:1, reversed:true})
+    return tl;
+}
 
+function dataMotion(){
+var tl = gsap.timeline({repeat:2})
+tl.from("#dot3",{opacity:0, yoyo:true, duration:1, reversed:true})
+    .from("#dot2",{opacity:0, yoyo:true, duration:1, reversed:true})
+    .from("#dot1",{opacity:0, yoyo:true, duration:1, reversed:true})
     return tl;
 }
 
 var mainTL = gsap.timeline();
 mainTL.add(simpleMotion())
 .add(patternMotion())
+.add(dataMotion())
 .add(UIMotion());
 
 GSDevTools.create();
