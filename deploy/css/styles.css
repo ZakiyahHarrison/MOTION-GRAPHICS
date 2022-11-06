@@ -418,3 +418,6 @@ textarea {
 #drawSVG-container .drawSVG .svg svg {
   width: 100%;
 }
+#drawSVG-container #ui-title {
+  align-items: right;
+}
