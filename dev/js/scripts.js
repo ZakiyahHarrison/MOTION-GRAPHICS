@@ -24,18 +24,25 @@ function mapAnimation2(){
 
 function tflAnimation(){
         var tl = gsap.timeline()
-        tl.fromTo("#L",{drawSVG:"100% 100%"},{duration:1.5, drawSVG:"100% 0%"})
-        .fromTo("#T1",{drawSVG:"100% 100%"},{duration:1.5, drawSVG:"100% 0%"})
-        .fromTo("#T2",{drawSVG:"100% 100%"},{duration:1.5, drawSVG:"100% 0%"})
-        .fromTo("#F1",{drawSVG:"100% 100%"},{duration:1.5, drawSVG:"100% 0%"})
-        .fromTo("#F2",{drawSVG:"100% 100%"},{duration:1.5, drawSVG:"100% 0%"})
+        tl.fromTo("#L",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        .fromTo("#T1",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        .fromTo("#T2",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        .fromTo("#F1",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        .fromTo("#F2",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        return tl;
+}
+
+function mapAnimation3(){
+        var tl = gsap.timeline()
+        tl.from("#line3",{opacity:0})
         return tl;
 }
 
 var mainTL = gsap.timeline();
 mainTL.add(mapAnimation1(),"do")
         .add(mapAnimation2(),"do")
-.add(tflAnimation());
+.add(tflAnimation())
+.add(mapAnimation3(),"do");
 
 
 GSDevTools.create();
