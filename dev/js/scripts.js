@@ -35,7 +35,7 @@ function tflAnimation(){
 
 function mapAnimation3(){
         var tl = gsap.timeline()
-        .to("#line1",{opacity:0})
+        tl.to("#line1",{opacity:0})
         .to("#line2",{opacity:0})
         .to("#line3",{opacity:0})
         .to("#line4",{opacity:0})
@@ -49,11 +49,19 @@ function mapAnimation3(){
         return tl;
 }
 
+function roundelAnimation(){
+        var tl = gsap.timeline()
+        tl.to("#F1", {duration: 1, morphSVG:"#bar"})
+
+        return tl;
+}
+
 var mainTL = gsap.timeline();
 mainTL.add(mapAnimation1(),"do")
         .add(mapAnimation2(),"do")
 .add(tflAnimation())
-.add(mapAnimation3());
+.add(mapAnimation3())
+.add(roundelAnimation());
 
 
 GSDevTools.create();
