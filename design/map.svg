@@ -1,0 +1,21 @@
+<svg width="4755" height="2927" viewBox="0 0 4755 2927" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="map" clip-path="url(#clip0_41_95)">
+<rect width="4755" height="2927" fill="white"/>
+<path id="line6" d="M-100 147.539H1296V701.034V2206.03L1586.5 2496.53H4907" stroke="#8E1D56" stroke-width="80" stroke-linecap="square"/>
+<path id="line4" d="M1989 2942.04V1283.54H3418.5L3999.5 1910H4924.5" stroke="#F9D348" stroke-width="80" stroke-linecap="square"/>
+<path id="line2" d="M4985.5 526.539H3106V1672.04V2052.5L2364.5 2743.04H1389.5L-135.5 979.039" stroke="#E8ACBB" stroke-width="80"/>
+<path id="line1" d="M2037 -181.5L2037 228.31H2774.88L2774.88 1654.54L2774.88 1935.5L3633.5 2794.12H4759.5" stroke="#A86726" stroke-width="80"/>
+<path id="line5" d="M4795 -422.461L4795 1039.69L4253.8 1039.69L3937.64 1039.69L3325.24 1654.54L998.5 1654.54L-83.5 375.5" stroke="#A1CBBB" stroke-width="80" stroke-linecap="square"/>
+<path id="line3" d="M4944 1268.04H3899L3484.5 853.539H717C717 1876.34 717 2785.54 717 2936.54" stroke="#D2392A" stroke-width="80"/>
+<path id="F2" d="M1989 1654.54H2373.5" stroke="#004FA3" stroke-width="80" stroke-linecap="square"/>
+<path id="F1" d="M2480.5 1284H1989V2186.46" stroke="#004FA3" stroke-width="80" stroke-linecap="square"/>
+<path id="T2" d="M1377 854H1958" stroke="#004FA3" stroke-width="80" stroke-linecap="square"/>
+<path id="T1" d="M1668 855.539V1653" stroke="#004FA3" stroke-width="80" stroke-linecap="square"/>
+<path id="L" d="M2775 853.5V1654.54H3258" stroke="#004FA3" stroke-width="80" stroke-linecap="square"/>
+</g>
+<defs>
+<clipPath id="clip0_41_95">
+<rect width="4755" height="2927" fill="white"/>
+</clipPath>
+</defs>
+</svg>
