@@ -383,8 +383,6 @@ ul li {
 /* =============
     Typography
 ============= */
-<<<<<<< Updated upstream
-=======
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -395,14 +393,9 @@ p {
   padding: 0;
 }
 
->>>>>>> Stashed changes
 /* =============
     Buttons
 ============= */
-button {
-  border: none;
-}
-
 /* =============
     Forms
 ============= */
@@ -427,16 +420,9 @@ textarea {
 /* =============
     Header
 ============= */
-header {
-  color: red;
-  font-size: 0.75rem;
-}
-
 /* =============
     Footer
 ============= */
-<<<<<<< Updated upstream
-=======
 #logo {
   display: grid;
   grid-template-columns: auto 50% auto;
@@ -450,4 +436,3 @@ header {
   justify-content: center;
   align-items: center;
 }
->>>>>>> Stashed changes
