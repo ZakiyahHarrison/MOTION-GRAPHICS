@@ -29,12 +29,23 @@ function tflAnimation(){
         .fromTo("#T2",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
         .fromTo("#F1",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
         .fromTo("#F2",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        .fromTo("#F3",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
         return tl;
 }
 
 function mapAnimation3(){
         var tl = gsap.timeline()
-        tl.from("#line3",{opacity:0})
+        .to("#line1",{opacity:0})
+        .to("#line2",{opacity:0})
+        .to("#line3",{opacity:0})
+        .to("#line4",{opacity:0})
+        .to("#line5",{opacity:0})
+        .to("#line6",{opacity:0})
+        .to("#L",{opacity:0})
+        .to("#T1",{opacity:0})
+        .to("#T2",{opacity:0})
+        .to("#F3",{opacity:0})
+        .to("#F2",{opacity:0})
         return tl;
 }
 
@@ -42,7 +53,7 @@ var mainTL = gsap.timeline();
 mainTL.add(mapAnimation1(),"do")
         .add(mapAnimation2(),"do")
 .add(tflAnimation())
-.add(mapAnimation3(),"do");
+.add(mapAnimation3());
 
 
 GSDevTools.create();
