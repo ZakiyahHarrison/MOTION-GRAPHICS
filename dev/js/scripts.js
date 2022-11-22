@@ -51,11 +51,18 @@ function mapAnimation3(){
 
 function roundelAnimation(){
         var tl = gsap.timeline()
-        tl.to("#F1", {duration: .5, scaleX:4.20, scaleY:2.06, transformOrigin:"center"})
-        .to("#F1",{duration:0.25, x:390, y:-290})
+        tl.to("#F1", {duration: .5, scaleX:4.20, scaleY:2.06, transformOrigin:"center"},"same")
+        .to("#F1",{duration:0.25, x:390, y:-290},"same")
         .to("#F1",{rotate:270})
         .from("#circle",{duration:0.0001,alpha:0})
         .from("#circle",{duration:1,drawSVG:0})
+        return tl;
+}
+
+function busAnimation(){
+        var tl = gsap.timeline()
+        tl.to ("F1",{duration:0.75, x:-1400})
+        .to ("circle",{duration:0.75, x:-1400})
         return tl;
 }
 
@@ -64,7 +71,8 @@ mainTL.add(mapAnimation1(),"do")
         .add(mapAnimation2(),"do")
 .add(tflAnimation())
 .add(mapAnimation3())
-.add(roundelAnimation());
+.add(roundelAnimation())
+.add(busAnimation());
 
 
 GSDevTools.create();
