@@ -7,51 +7,51 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
 function mapAnimation1(){
         var tl = gsap.timeline()
-        tl.fromTo("#line6",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
-        .fromTo("#line4",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
-        .fromTo("#line2",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
+        tl.fromTo("#line6",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
+        .fromTo("#line4",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
+        .fromTo("#line2",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
         return tl;
 }
 
 function mapAnimation2(){
         var tl = gsap.timeline()
-        tl.fromTo("#line3",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
-        .fromTo("#line1",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
-        .fromTo("#line5",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
-        .fromTo("#line7",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"})
+        tl.fromTo("#line3",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
+        .fromTo("#line1",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
+        .fromTo("#line5",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
+        .fromTo("#line7",{drawSVG:"100% 100%"},{duration:0.75, drawSVG:"100% 0%"})
         return tl;
 }
 
 function tflAnimation(){
         var tl = gsap.timeline()
-        tl.fromTo("#L",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
-        .fromTo("#T1",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
-        .fromTo("#T2",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
-        .fromTo("#F1",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
-        .fromTo("#F2",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
-        .fromTo("#F3",{drawSVG:"100% 100%"},{duration:.5, drawSVG:"100% 0%"})
+        tl.fromTo("#L",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"},"sametime")
+        .fromTo("#T1",{drawSVG:"100% 100%", alpha:0},{duration:1, drawSVG:"100% 0%", alpha:1},"sametime")
+        .fromTo("#T2",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"},"sametime")
+        .fromTo("#F1",{drawSVG:"100% 100%", alpha:0},{duration:1, drawSVG:"100% 0%", alpha:1},"sametime")
+        .fromTo("#F2",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"},"sametime")
+        .fromTo("#F3",{drawSVG:"100% 100%"},{duration:1, drawSVG:"100% 0%"},"sametime")
         return tl;
 }
 
 function mapAnimation3(){
         var tl = gsap.timeline()
-        tl.to("#line1",{opacity:0})
-        .to("#line2",{opacity:0})
-        .to("#line3",{opacity:0})
-        .to("#line4",{opacity:0})
-        .to("#line5",{opacity:0})
-        .to("#line6",{opacity:0})
-        .to("#L",{opacity:0})
-        .to("#T1",{opacity:0})
-        .to("#T2",{opacity:0})
-        .to("#F3",{opacity:0})
-        .to("#F2",{opacity:0})
+        tl.to("#line1",{opacity:0},"sametime")
+        .to("#line2",{opacity:0},"sametime")
+        .to("#line3",{opacity:0},"sametime")
+        .to("#line4",{opacity:0},"sametime")
+        .to("#line5",{opacity:0},"sametime")
+        .to("#line6",{opacity:0},"sametime")
+        .to("#L",{opacity:0},"same")
+        .to("#T1",{opacity:0},"same")
+        .to("#T2",{opacity:0},"same")
+        .to("#F3",{opacity:0},"same")
+        .to("#F2",{opacity:0},"same")
         return tl;
 }
 
 function roundelAnimation(){
         var tl = gsap.timeline()
-        tl.to("#F1", {duration: 1, morphSVG:"#bar"})
+        tl.to("#F1", {duration: 1, scaleX:1.5, transformOrigin:"center"})
 
         return tl;
 }
