@@ -40,11 +40,31 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/design\/bus pieces.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/design\/bus pieces.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/design\/Frame 3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/design\/Frame 3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/design\/LOGO-TYPE.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/design\/LOGO-TYPE.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -296,6 +316,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/styles.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/styles-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
