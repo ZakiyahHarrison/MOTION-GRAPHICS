@@ -51,8 +51,11 @@ function mapAnimation3(){
 
 function roundelAnimation(){
         var tl = gsap.timeline()
-        tl.to("#F1", {duration: 1, scaleX:4.20, scaleY:2.06, transformOrigin:"center"})
-        .to("#F1",{duration:0.25, x:100})
+        tl.to("#F1", {duration: .5, scaleX:4.20, scaleY:2.06, transformOrigin:"center"})
+        .to("#F1",{duration:0.25, x:390, y:-290})
+        .to("#F1",{rotate:270})
+        .from("#circle",{duration:0.0001,alpha:0})
+        .from("#circle",{duration:1,drawSVG:0})
         return tl;
 }
 

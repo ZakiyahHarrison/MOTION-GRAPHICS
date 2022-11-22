@@ -1,25 +1,27 @@
 #logo{
     display: grid;
-    grid-template-columns: auto 50% auto;
+    grid-template-columns: 16px auto 16px;
     grid-template-areas: 
-    ". . ."
-    ". logo ."
-    ". . .";
-    grid-template-rows: 20% auto 20%;
+    ". logo .";
     height: 100vh;
+
+    @include lg{
+        grid-template-columns: auto 1200px auto;
+    }
 
     >div{
         grid-area: logo;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        // background-color: #F0F0F0;
         
-
         svg{
-            // width: 50%;
-            
+
+    
         }
     }
+
+    
 }
 
