@@ -56,16 +56,16 @@ function roundelAnimation(){
         .to("#F1",{rotate:270})
         .from("#circle",{duration:0.0001,alpha:0})
         .from("#circle",{duration:1,drawSVG:0})
-        .to ("F1",{duration:0.75, x:-1400})
-        .to ("circle",{duration:0.75, x:-1400})
+        //.to ("F1",{duration:0.75, x:-1400})
+        //.to ("circle",{duration:0.75, x:-1400})
         return tl;
 }
 
 function busAnimation(){
         var tl = gsap.timeline()
-        tl.from("#buspieces",{duration:0.0001, alpha:0})
-        .from("#wheel1",{duration:0.0001, alpha:0})
-        .from("#wheel2",{duration:0.0001, alpha:0})
+        tl.from("#bus",{duration:0.0001, alpha:0})
+        .to("bus",{x:-5000,duration:2})
+        
         return tl;
 }
 
