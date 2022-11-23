@@ -63,7 +63,7 @@ function roundelAnimation(){
 
 function busAnimation(){
         var tl = gsap.timeline()
-        tl.from("#bus",{duration:0.0001, alpha:0})
+        tl.from("#bus",{duration:0.0001, alpha:0,x:5000})
         .to("bus",{x:-5000,duration:2})
         
         return tl;
