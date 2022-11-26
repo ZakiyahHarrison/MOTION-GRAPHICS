@@ -41,11 +41,11 @@ function mapAnimation3(){
         .to("#line4",{opacity:0},"sametime")
         .to("#line5",{opacity:0},"sametime")
         .to("#line6",{opacity:0},"sametime")
-        .to("#L",{opacity:0},"same")
-        .to("#T1",{opacity:0},"same")
-        .to("#T2",{opacity:0},"same")
-        .to("#F3",{opacity:0},"same")
-        .to("#F2",{opacity:0},"same")
+        .to("#L",{duration:0.5, opacity:0},"same")
+        .to("#T1",{duration:0.5, opacity:0},"same")
+        .to("#T2",{duration:0.5, opacity:0},"same")
+        .to("#F3",{duration:0.5, opacity:0},"same")
+        .to("#F2",{duration:0.5, opacity:0},"same")
         return tl;
 }
 
@@ -63,7 +63,7 @@ function roundelAnimation(){
 
 function busAnimation(){
         var tl = gsap.timeline()
-        tl.from("#bus",{duration:0.0001, alpha:0,x:5000})
+        tl.from("#bus",{duration:0.0001, alpha:0, x:5000})
         .to("bus",{x:-5000,duration:2})
         
         return tl;
