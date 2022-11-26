@@ -1,7 +1,14 @@
 import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
-gsap.from(".box", {
-    opacity: 0, 
-    y: 100, 
-    duration: 1
-  });
+gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
+
+
+
+var mainTL = gsap.timeline();
+
+
+
+GSDevTools.create();
