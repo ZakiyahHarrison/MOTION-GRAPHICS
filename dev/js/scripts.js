@@ -5,8 +5,8 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
-function voridotsAnimation(){
-        var tl = gsap.timeline ()
+function voridots1Animation(){
+        var tl = gsap.timeline ({duration:2})
         tl.from ("#dot1",{opacity:0},"appear")
 
         .from ("#dot3",{opacity:0},"appear1")
@@ -25,24 +25,34 @@ function voridotsAnimation(){
         .from ("#dot15",{opacity:0},"appear4")
         .from ("#dot4",{opacity:0},"appear4")
 
-        .from ("#dot6",{opacity:0},"appear5")
-        .from ("#dot11",{opacity:0},"appear5")
+        .from ("#dot2",{opacity:0},"appear4.5")
+        .from ("#dot8",{opacity:0},"appear4.5")
 
+        
 
-        .from ("#dot2",{})
-        .from ("#dot21",{})
-        .from ("#dot5",{})
-        .from ("#dot8",{})
-        .from ("#dot16",{})
-        
-        
         return tl;
 
 }
 
-var mainTL = gsap.timeline();
-mainTL.add(voridotsAnimation());
+function voridots2Animation (){
+        var tl = gsap.timeline ({duration:2})
 
+        tl.from ("#dot16",{opacity:0},"appear6")
+
+        .from ("#dot6",{opacity:0},"appear5")
+        .from ("#dot11",{opacity:0},"appear5")
+        
+        .from ("#dot21",{opacity:0},"appear6")
+
+        .from ("#dot5",{opacity:0},"appear7")
+        
+
+        return tl;
+}
+
+var mainTL = gsap.timeline();
+mainTL.add(voridots1Animation())
+.add(voridots2Animation());
 
 
 GSDevTools.create();
