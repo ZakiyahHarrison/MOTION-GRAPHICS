@@ -118,14 +118,17 @@ function dots2Animation (){
 function triangle1Animation(){
         var tl = gsap.timeline ()
 
+        tl.fromTo("#whitetriangle",{scale:0.01},{scale:1})
+        .fromTo("#clippath",{x:40},{x:1500})
+        
         return tl;
 }
 
 var mainTL = gsap.timeline();
-mainTL.add(dots1Animation())
+mainTL.add(triangle1Animation())
+.add(dots1Animation())
 .add(dots1changeAnimation())
-.add(dots2Animation())
-.add(triangle1Animation());
+.add(dots2Animation());
 
 
 GSDevTools.create();
