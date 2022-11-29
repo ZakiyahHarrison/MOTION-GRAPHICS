@@ -5,12 +5,14 @@ import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 
 gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
+
+
 function dots1Animation(){
         var tl = gsap.timeline ({duration:2})
-        tl.from ("#dot1",{opacity:0},"appear")
-
-        .to ("#dot6",{opacity:0},"appear3")
-        .to ("#dot11",{opacity:0},"appear3")
+        tl.from ("#dot21",{alpha:0},"start")
+        .from ("#dot16",{alpha:0},"start")
+        
+        .from ("#dot1",{opacity:0},"appear")
 
         .from ("#dot3",{opacity:0},"appear1")
         .from ("#dot19",{opacity:0},"appear1")
@@ -22,7 +24,7 @@ function dots1Animation(){
         .from ("#dot9",{opacity:0},"appear3")
         .from ("#dot10i ",{opacity:0},"appear3")
 
-
+        .from ("#dot7",{opacity:0},"appear4")
         .from ("#dot13",{opacity:0},"appear4")
         .from ("#dot14",{opacity:0},"appear4")
         .from ("#dot15",{opacity:0},"appear4")
@@ -30,6 +32,11 @@ function dots1Animation(){
 
         .from ("#dot2",{opacity:0},"appear4.5")
         .from ("#dot8",{opacity:0},"appear4.5")
+
+        .to ("#dot6",{alpha:0},"appear5")
+        .to ("#dot11",{alpha:0},"appear5")
+
+
 
         return tl;
 }
@@ -60,7 +67,6 @@ function dots1changeAnimation (){
         return tl;
         
 }
-
 
 function dots2Animation (){
         var tl = gsap.timeline ({duration:2})
