@@ -9,10 +9,9 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
 function dots1Animation(){
         var tl = gsap.timeline ({duration:2})
-        tl.from ("#dot21",{alpha:0},"start")
-        .from ("#dot16",{alpha:0},"start")
         
-        .from ("#dot1",{opacity:0},"appear")
+        
+        tl.from ("#dot1",{opacity:0},"appear")
 
         .from ("#dot3",{opacity:0},"appear1")
         .from ("#dot19",{opacity:0},"appear1")
@@ -77,6 +76,9 @@ function dots2Animation (){
         .from ("#dot6",{opacity:0},"appear3")
         .from ("#dot11",{opacity:0},"appear3")
 
+        .from ("#dot21",{alpha:0},"start")
+        .from ("#dot16",{alpha:0},"start")
+
         .from("#dot7",{fillOpacity:1},"appear2")
         .from("#dot17",{fillOpacity:1},"appear2")
         
@@ -113,10 +115,17 @@ function dots2Animation (){
         return tl;
 }
 
+function triangle1Animation(){
+        var tl = gsap.timeline ()
+
+        return tl;
+}
+
 var mainTL = gsap.timeline();
 mainTL.add(dots1Animation())
 .add(dots1changeAnimation())
-.add(dots2Animation());
+.add(dots2Animation())
+.add(triangle1Animation());
 
 
 GSDevTools.create();
