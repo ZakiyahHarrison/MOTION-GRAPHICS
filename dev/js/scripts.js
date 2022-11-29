@@ -7,7 +7,7 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
 function voridotsAnimation(){
         var tl = gsap.timeline ()
-        tl.from ("#dot1",{opacity:1})
+        tl.from ("#dot1",{opacity:0})
         .from ("#dot2",{})
         .from ("#dot3",{})
         .from ("#dot4",{})
