@@ -62,13 +62,51 @@ function dots1changeAnimation (){
 function dots2Animation (){
         var tl = gsap.timeline ({duration:2})
 
-        tl.from ("#dot6",{opacity:0},"appear5")
-        .from ("#dot11",{opacity:0},"appear5")
+        tl.from("#dot2",{fillOpacity:1},"appear1")
+        .from("#dot4",{fillOpacity:1},"appear1")
 
-        .from ("#dot16",{opacity:0},"appear6")
-        .from ("#dot21",{opacity:0},"appear6")
+        .from("#dot7",{fillOpacity:1},"appear2")
+        .from("#dot17",{fillOpacity:1},"appear2")
+        
+        .from ("#dot6",{opacity:0},"appear3")
+        .from ("#dot11",{opacity:0},"appear3")
 
-        .from ("#dot5",{opacity:0},"appear7")
+        .to ("#dot2",{opacity:0},"disappear1")   
+        .to ("#dot4",{opacity:0},"disappear1")
+
+        .to ("#dot7",{opacity:0},"disappear2")   
+        .to ("#dot17",{opacity:0},"disappear2")
+
+        .from ("#dot6",{opacity:0},"do")
+        .from ("#dot11",{opacity:0},"do")
+        .to ("#dot15",{opacity:0},"do")   
+
+        .to ("#dot18",{opacity:0},"disappear3")
+        
+        .to ("#dot12",{opacity:0},"disappear4")
+
+        .to ("#dot3",{opacity:0},"disappear5")
+        .to ("#dot19",{opacity:0},"disappear5")
+
+        .to ("#dot16",{opacity:0},"disappear6")
+        .to ("#dot6",{opacity:0},"disappear6")
+        .to ("#dot21",{opacity:0},"disappear6")
+
+        .to ("#dot1",{opacity:0},"disappear7")
+
+        .to ("#dot11",{opacity:0},"disappearfinal")
+        .to ("#dot8",{opacity:0},"disappearfinal")
+        .to ("#dot9",{opacity:0},"disappearfinal")
+        .to ("#dot13",{opacity:0},"disappearfinal")
+        .to ("#dot14",{opacity:0},"disappearfinal")
+
+
+        
+        
+
+        
+
+
         
 
         return tl;
