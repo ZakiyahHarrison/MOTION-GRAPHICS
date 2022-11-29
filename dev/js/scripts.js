@@ -27,10 +27,12 @@ function voridotsAnimation(){
         tl.from ("#dot18",{})
         tl.from ("#dot19",{})
 
+        return tl;
+
 }
 
 var mainTL = gsap.timeline();
-mainTL.add(voridotsAnimation);
+mainTL.add(voridotsAnimation());
 
 
 
