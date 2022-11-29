@@ -54,18 +54,31 @@ function roundelAnimation(){
         tl.to("#F1", {duration: .5, scaleX:4.20, scaleY:2.06, transformOrigin:"center"},"same")
         .to("#F1",{duration:0.25, x:390, y:-290},"same")
         .to("#F1",{rotate:270})
-        .from("#circle",{duration:0.0001,alpha:0})
-        .from("#circle",{duration:1,drawSVG:0})
-        //.to ("F1",{duration:0.75, x:-1400})
-        //.to ("circle",{duration:0.75, x:-1400})
+        .from("#round",{duration:0.0001,alpha:0})
+        .from("#round",{duration:1,drawSVG:0})
+        //.to ("#F1",{duration:0.75, x:-990},"do")
+        //.to ("#round",{duration:0.75, x:-1355},"do")
+
+
         return tl;
 }
 
 function busAnimation(){
         var tl = gsap.timeline()
-        tl.from("#bus",{duration:0.0001, alpha:0, x:5000})
-        .to("bus",{x:-5000,duration:2})
-        
+        tl.fromTo("#bus",{duration:2, x:4500},{x:-4700,duration:2, ease:"none"})
+
+        .to("#round",{alpha:0,duration:.001},"-=1")
+        .to("#F1",{alpha:0,duration:.001},"-=1")
+
+        //.to("#bus",{x:-4000,duration:3})
+        //.to("#wheel12",{rotate:270})
+        //.to("#wheel22",{rotate:270})
+        return tl;
+}
+
+function textAnimation(){
+        var tl = gsap.timeline()
+     tl.fromTo("#text",{duration:2, x:4700},{x:10,duration:2, ease:"none"})
         return tl;
 }
 
@@ -75,7 +88,8 @@ mainTL.add(mapAnimation1(),"do")
 .add(tflAnimation())
 .add(mapAnimation3())
 .add(roundelAnimation())
-.add(busAnimation());
+.add(busAnimation(),"same")
+.add(textAnimation());
 
 
 GSDevTools.create();
