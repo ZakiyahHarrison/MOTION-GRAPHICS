@@ -390,3 +390,16 @@ textarea {
 /* =============
     Footer
 ============= */
+#logo {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". logo .";
+  height: 100vh;
+}
+#logo > div {
+  grid-area: logo;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
