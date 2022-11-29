@@ -22,7 +22,7 @@ function dots1Animation(){
         .from ("#dot9",{opacity:0},"appear3")
         .from ("#dot10i ",{opacity:0},"appear3")
 
-        .from ("#dot7",{opacity:0},"appear4")
+
         .from ("#dot13",{opacity:0},"appear4")
         .from ("#dot14",{opacity:0},"appear4")
         .from ("#dot15",{opacity:0},"appear4")
