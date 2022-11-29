@@ -40,17 +40,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/deploy\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/design\/vori dots.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -132,17 +121,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
-    },
-    "\/dev\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
