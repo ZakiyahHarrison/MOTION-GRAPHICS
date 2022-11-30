@@ -138,9 +138,9 @@ function voritext1Animation(){
 var mainTL = gsap.timeline();
 mainTL
 .add(dots1Animation())
-.add(dots1changeAnimation())
+.add(dots1changeAnimation(),"same")
 .add(dots2Animation())
-        .add(triangle1Animation())
+.add(triangle1Animation(),"same")
 .add(voritext1Animation());
 
 
