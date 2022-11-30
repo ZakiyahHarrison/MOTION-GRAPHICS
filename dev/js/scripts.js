@@ -118,7 +118,7 @@ function dots2Animation (){
 function triangle1Animation(){
         var tl = gsap.timeline ()
 
-        tl.fromTo("#whitetriangle",{scale:0.01},{scale:1})
+        tl.fromTo("#whitetriangle",{scale:0.9},{scale:1})
         .fromTo("#clippath",{x:40},{x:1500})
         
         return tl;

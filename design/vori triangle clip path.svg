@@ -1,7 +1,7 @@
 <svg width="2668" height="1724" viewBox="0 0 2668 1724" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="vori triangle clip path">
 <rect width="2668" height="1724" fill="black"/>
-<rect id="clippath" x="720" y="692.086" width="870.077" height="1000.01" transform="rotate(-31.3821 720 692.086)" fill="#16E469"/>
-<path id="whitetriangle" d="M1211.13 1497.05C1224.77 1519.41 1257.23 1519.41 1270.87 1497.05L1736.78 733.734C1751.02 710.411 1734.23 680.5 1706.91 680.5H775.092C747.768 680.5 730.982 710.411 745.217 733.734L1211.13 1497.05Z" fill="white"/>
+<rect id="clippath" x="807" y="536.086" width="870.077" height="1000.01" transform="rotate(-31.3821 807 536.086)" fill="#16E469"/>
+<path id="whitetriangle" d="M1298.13 1341.05C1311.77 1363.41 1344.23 1363.41 1357.87 1341.05L1823.78 577.735C1838.02 554.412 1821.23 524.5 1793.91 524.5H862.092C834.768 524.5 817.982 554.412 832.217 577.735L1298.13 1341.05Z" fill="white"/>
 </g>
 </svg>
