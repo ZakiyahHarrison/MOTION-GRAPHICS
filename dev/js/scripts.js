@@ -124,11 +124,23 @@ function triangle1Animation(){
         return tl;
 }
 
+function voritext1Animation(){
+        var tl = gsap.timeline ({duration:2})
+        tl.fromTo("#v",{x:300,opacity:0},{x:10, ease:1,opacity:1},"same")
+        .fromTo("#o",{x:400,opacity:0},{x:10.5, ease:1,opacity:1},"same")
+        .fromTo("#r",{x:500,opacity:0},{x:11, ease:1,opacity:1},"same")
+        .fromTo("#i",{x:600,opacity:0},{x:11.5, ease:1,opacity:1},"same")
+        
+
+        return tl;
+}
+
 var mainTL = gsap.timeline();
 mainTL.add(triangle1Animation())
 .add(dots1Animation())
 .add(dots1changeAnimation())
-.add(dots2Animation());
+.add(dots2Animation())
+.add(voritext1Animation());
 
 
 GSDevTools.create();
