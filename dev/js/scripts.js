@@ -130,16 +130,17 @@ function voritext1Animation(){
         .fromTo("#o",{x:400,opacity:0},{x:10.5, ease:1,opacity:1},"same")
         .fromTo("#r",{x:500,opacity:0},{x:11, ease:1,opacity:1},"same")
         .fromTo("#i",{x:600,opacity:0},{x:11.5, ease:1,opacity:1},"same")
-        
+        .to("#dot10i",{x:416,fillOpacity:4})
 
         return tl;
 }
 
 var mainTL = gsap.timeline();
-mainTL.add(triangle1Animation())
+mainTL
 .add(dots1Animation())
 .add(dots1changeAnimation())
 .add(dots2Animation())
+        .add(triangle1Animation())
 .add(voritext1Animation());
 
 
