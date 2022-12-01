@@ -116,10 +116,14 @@ function dots2Animation (){
 }
 
 function triangle1Animation(){
-        var tl = gsap.timeline ()
+        var tl = gsap.timeline () 
 
         tl.fromTo("#whitetriangle",{scale:0},{scale:1})
-        .fromTo("#clippath",{x:"-60%",y:"60%"},{x:"70%",y:"-70%",duration:2})
+        .fromTo("#clippath",{x:"-60%",y:"60%"},{x:"0%",y:"0%",duration:2})
+        .from("#blackcircle",{scale:0, transformOrigin:"center"})
+        .to("#blackcircle",{scale:1, transformOrigin:"center"})
+
+        
         
         return tl;
 }
