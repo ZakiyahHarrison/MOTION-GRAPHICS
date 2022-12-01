@@ -135,13 +135,23 @@ function voritext1Animation(){
         return tl;
 }
 
+function voritext2Animation(){
+        var tl = gsap.timeline ()
+
+        tl.fromTo("#vdraw",{drawSVG:"0%"},{drawSVG:"100%"})
+
+        return tl;
+
+}
+
 var mainTL = gsap.timeline();
 mainTL
 .add(dots1Animation(),"same")
 .add(triangle1Animation())
 .add(dots1changeAnimation())
 .add(dots2Animation())
-.add(voritext1Animation());
+.add(voritext1Animation())
+.add(voritext2Animation());
 
 
 GSDevTools.create();
