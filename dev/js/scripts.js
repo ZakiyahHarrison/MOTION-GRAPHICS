@@ -119,7 +119,7 @@ function triangle1Animation(){
         var tl = gsap.timeline ()
 
         tl.fromTo("#whitetriangle",{scale:0},{scale:1})
-        .fromTo("#clippath",{x:"-50%",y:"50%"},{x:"50%",y:"-50%"})
+        .fromTo("#clippath",{x:"-60%",y:"60%"},{x:"70%",y:"-70%"})
         
         return tl;
 }
