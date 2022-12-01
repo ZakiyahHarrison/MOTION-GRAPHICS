@@ -8,7 +8,7 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
 
 function dots1Animation(){
-        var tl = gsap.timeline ({duration:2})
+        var tl = gsap.timeline ({duration:0.5})
         
         
         tl.from ("#dot1",{opacity:0},"appear")
@@ -68,7 +68,7 @@ function dots1changeAnimation (){
 }
 
 function dots2Animation (){
-        var tl = gsap.timeline ({duration:2})
+        var tl = gsap.timeline ({duration:0.5})
 
         tl.from("#dot2",{fillOpacity:1},"appear1")
         .from("#dot4",{fillOpacity:1},"appear1")
@@ -118,8 +118,8 @@ function dots2Animation (){
 function triangle1Animation(){
         var tl = gsap.timeline ()
 
-        tl.fromTo("#whitetriangle",{scale:0.9},{scale:1})
-        .fromTo("#clippath",{x:40},{x:1500})
+        tl.fromTo("#whitetriangle",{scale:0},{scale:1})
+        .fromTo("#clippath",{x:"-50%",y:"50%"},{x:"50%",y:"-50%"})
         
         return tl;
 }
@@ -137,10 +137,10 @@ function voritext1Animation(){
 
 var mainTL = gsap.timeline();
 mainTL
-.add(dots1Animation())
-.add(dots1changeAnimation(),"same")
+.add(dots1Animation(),"same")
+.add(triangle1Animation())
+.add(dots1changeAnimation())
 .add(dots2Animation())
-.add(triangle1Animation(),"same")
 .add(voritext1Animation());
 
 
