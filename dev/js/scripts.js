@@ -136,9 +136,11 @@ function voritext1Animation(){
 }
 
 function voritext2Animation(){
-        var tl = gsap.timeline ()
+        var tl = gsap.timeline ({duration:2})
 
-        tl.fromTo("#vdraw",{drawSVG:"0%"},{drawSVG:"100%"})
+        tl.fromTo("#vdraw",{drawSVG:"0%"},{drawSVG:"100%"},"do")
+        .fromTo("#i",{drawSVG:"100% 100%"},{drawSVG:"100% 0%"},"do")
+        .fromTo("#rdraw",{drawSVG:"0%"},{drawSVG:"100%"},"do")
 
         return tl;
 
@@ -150,8 +152,8 @@ mainTL
 .add(triangle1Animation())
 .add(dots1changeAnimation())
 .add(dots2Animation())
-.add(voritext1Animation())
-.add(voritext2Animation());
+.add(voritext1Animation(),"do")
+.add(voritext2Animation(),"do");
 
 
 GSDevTools.create();
