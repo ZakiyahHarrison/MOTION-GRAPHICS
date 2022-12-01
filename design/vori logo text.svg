@@ -5,12 +5,12 @@
 <g id="v">
 <path id="stem" d="M1404.21 742H1309.95L1409.12 1045.39H1511L1547.5 951.134H1465.08L1404.21 742Z" fill="white"/>
 <path id="vdraw" d="M1499.5 965L1588 728" stroke="white" stroke-width="80"/>
-<rect id="hide" x="1539" y="714" width="88" height="28" fill="black"/>
+<rect id="hide" x="1538" y="714" width="88" height="28" fill="black"/>
 </g>
 <path id="i" d="M2081 824.5V1045.5" stroke="white" stroke-width="75"/>
 <g id="r">
-<path id="stem_2" d="M1938.74 1045H1863.71V819H1935.19V846.096L1938.74 866.247V898.247L1948 906.747C1938.51 915.514 1938.74 921.438 1938.74 941.164V1045Z" fill="white"/>
-<path id="rdraw" d="M1898.5 924.993C1941 851.247 1982 849.247 2007 849.247" stroke="white" stroke-width="60"/>
+<path id="stem_2" d="M1938.74 1045H1863.71V819H1935.19V846.096V895L1938.74 898.247L1948 906.747C1938.51 915.514 1938.74 921.438 1938.74 941.164V1045Z" fill="white"/>
+<path id="rdraw" d="M1898.5 925.747C1941 852 1982 850 2007 850" stroke="white" stroke-width="60"/>
 </g>
 </g>
 </svg>
