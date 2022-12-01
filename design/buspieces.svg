@@ -35,16 +35,20 @@
 <rect id="Rectangle 61" x="-12.8603" y="12.8603" width="128.545" height="82.682" rx="30.0073" transform="matrix(-1 0 0 1 2346.76 2065.06)" stroke="#294766" stroke-width="25.7205"/>
 <path id="Vector 48" d="M3920.34 2243.3H4618.71" stroke="#294766" stroke-width="42.8676"/>
 <path id="Vector 50" d="M514 2243.3H828.784" stroke="#294766" stroke-width="42.8676"/>
-<rect id="Rectangle 56" width="4069.93" height="294.465" transform="matrix(-1 0 0 1 4604.96 1027.74)" fill="#1D2632"/>
+<rect id="Rectangle 56" width="4070" height="302" transform="matrix(-1 0 0 1 4605 1028)" fill="#1D2632"/>
 <g id="wheel1">
 <circle id="Ellipse 43" r="301.25" transform="matrix(-1 0 0 1 1079.98 2407.99)" fill="#294766" stroke="#294766" stroke-width="50"/>
+<g id="wheelcircle1">
 <circle id="Ellipse 43_2" r="189.607" transform="matrix(-1 0 0 1 1072.5 2407.59)" fill="#D9D9D9" stroke="#1D2632" stroke-width="50"/>
 <circle id="Ellipse 44" r="57.7704" transform="matrix(-1 0 0 1 1219.07 2524.72)" fill="#D9D9D9" stroke="#1D2632" stroke-width="20"/>
 </g>
+</g>
 <g id="wheel2">
 <circle id="Ellipse 43_3" r="301.25" transform="matrix(-1 0 0 1 3665.02 2407.76)" fill="#294766" stroke="#294766" stroke-width="50"/>
+<g id="wheelcircle2">
 <circle id="Ellipse 43_4" r="189.607" transform="matrix(-1 0 0 1 3657.54 2407.36)" fill="#D9D9D9" stroke="#1D2632" stroke-width="50"/>
-<circle id="Ellipse 44_2" r="57.7704" transform="matrix(-1 0 0 1 3804.07 2311.24)" fill="#D9D9D9" stroke="#1D2632" stroke-width="20"/>
+<circle id="Ellipse" r="57.7704" transform="matrix(-1 0 0 1 3804.07 2311.24)" fill="#D9D9D9" stroke="#1D2632" stroke-width="20"/>
+</g>
 </g>
 </g>
 </g>

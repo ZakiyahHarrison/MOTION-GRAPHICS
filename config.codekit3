@@ -40,61 +40,31 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/buspieces.svg" : {
+    "\/design\/vori dots.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/design\/buspieces.svg",
+      "oAP" : "\/design\/vori dots.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/design\/Frame 3.svg" : {
+    "\/design\/vori logo text.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/design\/Frame 3.svg",
+      "oAP" : "\/design\/vori logo text.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/design\/LOGO-TYPE.svg" : {
+    "\/design\/vori triangle clip path.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/design\/LOGO-TYPE.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/design\/map.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/map.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/design\/roundel pieces.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/roundel pieces.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/design\/TFL Text.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/TFL Text.svg",
+      "oAP" : "\/design\/vori triangle clip path.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -108,12 +78,44 @@
       "oAP" : "\/dev\/content\/logo.html",
       "oF" : 0
     },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/head.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/header.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/scripts.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
@@ -139,17 +141,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
-    },
-    "\/dev\/js\/scripts-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 4,
@@ -326,6 +317,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/scss\/sections\/logo.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/logo-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/dev\/scss\/styles.css" : {
       "aP" : 1,
