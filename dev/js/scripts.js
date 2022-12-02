@@ -130,7 +130,7 @@ function triangle1Animation(){
 }
 
 function voritext1Animation(){
-        var tl = gsap.timeline ({duration:2})
+        var tl = gsap.timeline ({duration:3})
         tl.fromTo("#v",{x:300,opacity:0},{x:10, ease:1,opacity:1},"same")
         .fromTo("#o",{x:400,opacity:0},{x:10.5, ease:1,opacity:1},"same")
         .fromTo("#r",{x:500,opacity:0},{x:11, ease:1,opacity:1},"same")
