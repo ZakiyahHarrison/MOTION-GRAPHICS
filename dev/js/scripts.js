@@ -122,7 +122,6 @@ var tl = gsap.timeline ()
 
         tl.from("#triangleline",{duration:0.0001,alpha:0})
         .from("#triangleline",{duration:0.5, scaleX:0, transformOrigin:"50% 0%"},"same")
-        //.to("#triangleline",{scaleX:"100%", scaleY:"100%"},"same")
         .to("#whitesquare",{x:-500, transformOrigin:"center"},"same") 
         .to("#blacktriangle",{x:-500, transformOrigin:"center"},"same")
         .to("#triangleline",{x:-500, transformOrigin:"center"},"same")
