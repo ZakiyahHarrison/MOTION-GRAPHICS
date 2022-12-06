@@ -121,10 +121,10 @@ function triangle2Animation(){
 var tl = gsap.timeline () 
 
         tl.from("#triangleline",{scale:0})
-        .to("#triangleline",{scalex:2.06, transformOrigin:"center"})
+        .to("#triangleline",{scaleY:10,transformOrigin:"center"})
         .to("#whitesquare",{x:-500, transformOrigin:"center"},"same") 
         .to("#blacktriangle",{x:-500, transformOrigin:"center"},"same")
-        .to("#triangleline",{x:-500, transformOrigin:"center"},"same")
+        //.to("#triangleline",{x:-500, transformOrigin:"center"},"same")
 
 
         return tl;
