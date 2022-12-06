@@ -8,7 +8,7 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
 
 function dots1Animation(){
-        var tl = gsap.timeline ({duration:0.5})
+        var tl = gsap.timeline ()
         
         
         tl.from ("#dot1",{opacity:0},"appear")
@@ -68,7 +68,7 @@ function dots1changeAnimation (){
 }
 
 function dots2Animation (){
-        var tl = gsap.timeline ({duration:0.5})
+        var tl = gsap.timeline ()
 
         tl.from("#dot2",{fillOpacity:1},"appear1")
         .from("#dot4",{fillOpacity:1},"appear1")
@@ -121,8 +121,9 @@ function triangle1Animation(){
         tl.fromTo("#whitetriangle",{scale:0},{scale:1})
         .fromTo("#clippath",{x:"-60%",y:"60%"},{x:"0%",y:"0%",duration:2})
         .from("#blackcircle",{scale:0, transformOrigin:"center"},"same")
-        //.to("#blackcircle",{scale:4, transformOrigin:"center"},"same")
         .to("#whitetriangle",{scale:0, transformOrigin:"center"},"same")
+        .from("#blacktriangle",{scale:0, transformOrigin:"center"},"same")
+        .from("#whitesquare",{scale:0, transformOrigin:"center"},"same")
 
         
         
@@ -153,7 +154,7 @@ function voritext2Animation(){
 
 var mainTL = gsap.timeline();
 mainTL
-.add(dots1Animation(),"same")
+.add(dots1Animation())
 .add(triangle1Animation())
 .add(dots1changeAnimation())
 .add(dots2Animation())
