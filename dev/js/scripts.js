@@ -120,8 +120,12 @@ function triangle1Animation(){
 function triangle2Animation(){
 var tl = gsap.timeline () 
 
-        tl.to("#whitesquare",{x:-500, transformOrigin:"center"},"same") 
+        tl.from("#triangleline",{scale:0})
+        .to("#triangleline",{scalex:2.06, transformOrigin:"center"})
+        .to("#whitesquare",{x:-500, transformOrigin:"center"},"same") 
         .to("#blacktriangle",{x:-500, transformOrigin:"center"},"same")
+        .to("#triangleline",{x:-500, transformOrigin:"center"},"same")
+
 
         return tl;
 }
@@ -152,7 +156,7 @@ var mainTL = gsap.timeline();
 mainTL
 .add(dotsAnimation({duration:0.005}),"same")
 .add(triangle1Animation(),"same")
-.add(triangle2Animation(),"do")
+.add(triangle2Animation())
 .add(voritext1Animation(),"do")
 .add(voritext2Animation(),"do");
 
