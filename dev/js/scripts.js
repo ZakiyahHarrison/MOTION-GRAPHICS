@@ -56,8 +56,6 @@ function roundelAnimation(){
         .to("#F1",{rotate:270})
         .from("#round",{duration:0.0001,alpha:0})
         .from("#round",{duration:1,drawSVG:0})
-        //.to ("#F1",{duration:0.75, x:-990},"do")
-        //.to ("#round",{duration:0.75, x:-1355},"do")
 
 
         return tl;
@@ -65,15 +63,15 @@ function roundelAnimation(){
 
 function busAnimation(){
         var tl = gsap.timeline()
-        tl.fromTo("#bus",{duration:1, x:4500},{x:-4700,duration:2, ease:"none"})
+        tl.fromTo("#bus",{duration:1, x:4500},{x:-4700,duration:2, ease:"none"},"same")
 
         .to("#round",{alpha:0,duration:.001},"-=1")
         .to("#F1",{alpha:0,duration:.001},"-=1")
 
         .from("#text",{alpha:0,x:10,duration:.001},"-=1")
         
-        .to("#wheelcircle1",{rotate:360})
-        .to("#wheelcircle2",{rotate:360})
+        .to("#wheel1",{duration:1, rotate:-360, transformOrigin:"center",repeat:2, ease:1},"same")
+        .to("#wheel2",{duration:1, rotate:-360, transformOrigin:"center",repeat:2, ease:1},"same")
 
         return tl;
 }
