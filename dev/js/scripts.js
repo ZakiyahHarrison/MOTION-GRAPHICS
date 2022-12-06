@@ -7,110 +7,97 @@ gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MotionPathPlugin);
 
 
 
-function dots1Animation(){
-        var tl = gsap.timeline ()
+function dotsAnimation(){
+        var tl = gsap.timeline ({})
         
-        
-        tl.from ("#dot1",{opacity:0},"appear")
+        tl.from ("#dot1",{opacity:0,duration:0.10},"appear")
 
-        .from ("#dot3",{opacity:0},"appear1")
-        .from ("#dot19",{opacity:0},"appear1")
+        .from ("#dot3",{opacity:0,duration:0.10},"appear1")
+        .from ("#dot19",{opacity:0,duration:0.10},"appear1")
 
-        .from ("#dot12",{opacity:0},"appear2")
+        .from ("#dot12",{opacity:0,duration:0.10},"appear2")
 
-        .from ("#dot17",{opacity:0},"appear3")
-        .from ("#dot18",{opacity:0},"appear3")
-        .from ("#dot9",{opacity:0},"appear3")
-        .from ("#dot10i ",{opacity:0},"appear3")
+        .from ("#dot17",{opacity:0,duration:0.10},"appear3")
+        .from ("#dot18",{opacity:0,duration:0.10},"appear3")
+        .from ("#dot9",{opacity:0,duration:0.10},"appear3")
+        .from ("#dot10i ",{opacity:0,duration:0.10},"appear3")
 
-        .from ("#dot7",{opacity:0},"appear4")
-        .from ("#dot13",{opacity:0},"appear4")
-        .from ("#dot14",{opacity:0},"appear4")
-        .from ("#dot15",{opacity:0},"appear4")
-        .from ("#dot4",{opacity:0},"appear4")
+        .from ("#dot7",{opacity:0,duration:0.10},"appear4")
+        .from ("#dot13",{opacity:0,duration:0.10},"appear4")
+        .from ("#dot14",{opacity:0,duration:0.10},"appear4")
+        .from ("#dot15",{opacity:0,duration:0.10},"appear4")
+        .from ("#dot4",{opacity:0,duration:0.10},"appear4")
 
-        .from ("#dot2",{opacity:0},"appear4.5")
-        .from ("#dot8",{opacity:0},"appear4.5")
+        .from ("#dot2",{opacity:0,duration:0.10},"appear4.5")
+        .from ("#dot8",{opacity:0,duration:0.10},"appear4.5")
 
-        .to ("#dot6",{alpha:0},"appear5")
-        .to ("#dot11",{alpha:0},"appear5")
+        .to ("#dot6",{alpha:0,duration:0.10},"appear5")
+        .to ("#dot11",{alpha:0,duration:0.10},"appear5")
 
+        .to ("#dot1",{fillOpacity:.25,duration:0.10},"appear")
 
+        .to ("#dot3",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot19",{fillOpacity:.25,duration:0.10},"appear")
 
-        return tl;
-}
+        .to ("#dot12",{fillOpacity:.25,duration:0.10},"appear")
 
-function dots1changeAnimation (){
-        var tl = gsap.timeline()
-        tl.to ("#dot1",{fillOpacity:.25},"appear")
+        .to ("#dot17",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot18",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot9",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot10i ",{fillOpacity:.25,duration:0.10},"appear")
 
-        .to ("#dot3",{fillOpacity:.25},"appear")
-        .to ("#dot19",{fillOpacity:.25},"appear")
+        .to ("#dot7",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot13",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot14",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot15",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot4",{fillOpacity:.25,duration:0.10},"appear")
 
-        .to ("#dot12",{fillOpacity:.25},"appear")
+        .to ("#dot2",{fillOpacity:.25,duration:0.10},"appear")
+        .to ("#dot8",{fillOpacity:.25,duration:0.10},"appear")
 
-        .to ("#dot17",{fillOpacity:.25},"appear")
-        .to ("#dot18",{fillOpacity:.25},"appear")
-        .to ("#dot9",{fillOpacity:.25},"appear")
-        .to ("#dot10i ",{fillOpacity:.25},"appear")
+        .from("#dot2",{fillOpacity:1,duration:0.10},"appear1")
+        .from("#dot4",{fillOpacity:1,duration:0.10},"appear1")
 
-        .to ("#dot7",{fillOpacity:.25},"appear")
-        .to ("#dot13",{fillOpacity:.25},"appear")
-        .to ("#dot14",{fillOpacity:.25},"appear")
-        .to ("#dot15",{fillOpacity:.25},"appear")
-        .to ("#dot4",{fillOpacity:.25},"appear")
+        .from ("#dot6",{opacity:0,duration:0.10},"appear3")
+        .from ("#dot11",{opacity:0,duration:0.10},"appear3")
 
-        .to ("#dot2",{fillOpacity:.25},"appear")
-        .to ("#dot8",{fillOpacity:.25},"appear")
+        .from ("#dot21",{alpha:0,duration:0.10},"start")
+        .from ("#dot16",{alpha:0,duration:0.10},"start")
 
-        return tl;
-        
-}
-
-function dots2Animation (){
-        var tl = gsap.timeline ()
-
-        tl.from("#dot2",{fillOpacity:1},"appear1")
-        .from("#dot4",{fillOpacity:1},"appear1")
-
-        .from ("#dot6",{opacity:0},"appear3")
-        .from ("#dot11",{opacity:0},"appear3")
-
-        .from ("#dot21",{alpha:0},"start")
-        .from ("#dot16",{alpha:0},"start")
-
-        .from("#dot7",{fillOpacity:1},"appear2")
-        .from("#dot17",{fillOpacity:1},"appear2")
+        .from("#dot7",{fillOpacity:1,duration:0.10},"appear2")
+        .from("#dot17",{fillOpacity:1,duration:0.10},"appear2")
         
 
-        .to ("#dot2",{opacity:0},"disappear1")   
-        .to ("#dot4",{opacity:0},"disappear1")
+        .to ("#dot2",{opacity:0,duration:0.10},"disappear1")   
+        .to ("#dot4",{opacity:0,duration:0.10},"disappear1")
 
-        .to ("#dot7",{opacity:0},"disappear2")   
-        .to ("#dot17",{opacity:0},"disappear2")
+        .to ("#dot7",{opacity:0,duration:0.10},"disappear2")   
+        .to ("#dot17",{opacity:0,duration:0.10},"disappear2")
 
-        .from ("#dot6",{opacity:0},"do")
-        .from ("#dot11",{opacity:0},"do")
-        .to ("#dot15",{opacity:0},"do")   
+        .from ("#dot6",{opacity:0,duration:0.10},"do")
+        .from ("#dot11",{opacity:0,duration:0.10},"do")
+        .to ("#dot15",{opacity:0,duration:0.10},"do")   
 
-        .to ("#dot18",{opacity:0},"disappear3")
+        .to ("#dot18",{opacity:0,duration:0.10},"disappear3")
         
-        .to ("#dot12",{opacity:0},"disappear4")
+        .to ("#dot12",{opacity:0,duration:0.10},"disappear4")
 
-        .to ("#dot3",{opacity:0},"disappear5")
-        .to ("#dot19",{opacity:0},"disappear5")
+        .to ("#dot3",{opacity:0,duration:0.10},"disappear5")
+        .to ("#dot19",{opacity:0,duration:0.10},"disappear5")
 
-        .to ("#dot16",{opacity:0},"disappear6")
-        .to ("#dot6",{opacity:0},"disappear6")
-        .to ("#dot21",{opacity:0},"disappear6")
+        .to ("#dot16",{opacity:0,duration:0.10},"disappear6")
+        .to ("#dot6",{opacity:0,duration:0.10},"disappear6")
+        .to ("#dot21",{opacity:0,duration:0.10},"disappear6")
 
-        .to ("#dot1",{opacity:0},"disappear7")
+        .to ("#dot1",{opacity:0,duration:0.10},"disappear7")
 
-        .to ("#dot11",{opacity:0},"disappearfinal")
-        .to ("#dot8",{opacity:0},"disappearfinal")
-        .to ("#dot9",{opacity:0},"disappearfinal")
-        .to ("#dot13",{opacity:0},"disappearfinal")
-        .to ("#dot14",{opacity:0},"disappearfinal")
+        .to ("#dot11",{opacity:0,duration:0.10},"disappearfinal")
+        .to ("#dot8",{opacity:0,duration:0.10},"disappearfinal")
+        .to ("#dot9",{opacity:0,duration:0.10},"disappearfinal")
+        .to ("#dot13",{opacity:0,duration:0.10},"disappearfinal")
+        .to ("#dot14",{opacity:0,duration:0.10},"disappearfinal")
+
+
 
         return tl;
 }
@@ -124,8 +111,18 @@ function triangle1Animation(){
         .to("#whitetriangle",{scale:0, transformOrigin:"center"},"do")
         .fromTo("#blackcircle",{scale:0.5,transformOrigin:"center"},{fill:"white"},"same")
         .from("#whitesquare",{scale:0, transformOrigin:"center"},"same") 
-        .from("#blacktriangle",{scale:0, transformOrigin:"center"})
+        .from("#blacktriangle",{scale:0, transformOrigin:"center"},"stuff")
+        .to("#blackcircle",{scale:0},"stuff")
        
+        return tl;
+}
+
+function triangle2Animation(){
+var tl = gsap.timeline () 
+
+        tl.to("#whitesquare",{x:-500, transformOrigin:"center"},"same") 
+        .to("#blacktriangle",{x:-500, transformOrigin:"center"},"same")
+
         return tl;
 }
 
@@ -153,10 +150,9 @@ function voritext2Animation(){
 
 var mainTL = gsap.timeline();
 mainTL
-.add(dots1Animation(),"same")
+.add(dotsAnimation({duration:0.005}),"same")
 .add(triangle1Animation(),"same")
-.add(dots1changeAnimation())
-.add(dots2Animation())
+.add(triangle2Animation(),"do")
 .add(voritext1Animation(),"do")
 .add(voritext2Animation(),"do");
 
