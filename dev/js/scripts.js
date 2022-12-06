@@ -118,15 +118,14 @@ function dots2Animation (){
 function triangle1Animation(){
         var tl = gsap.timeline () 
 
-        tl.fromTo("#whitetriangle",{scale:0},{scale:1})
-        .fromTo("#clippath",{x:"-60%",y:"60%"},{x:"0%",y:"0%",duration:2})
-        .from("#blackcircle",{scale:0, transformOrigin:"center"},"same")
-        .to("#whitetriangle",{scale:0, transformOrigin:"center"},"same")
-        .from("#blacktriangle",{scale:0, transformOrigin:"center"},"same")
-        .from("#whitesquare",{scale:0, transformOrigin:"center"},"same")
-
-        
-        
+        tl.from("#whitetriangle",{scale:0, transformOrigin:"center"})
+        .fromTo("#clippath",{x:"-60%",y:"60%"},{x:"0%",y:"0%",duration:.5})
+        .fromTo("#blackcircle",{scale:0, transformOrigin:"center"},{scale:0.5},"do")
+        .to("#whitetriangle",{scale:0, transformOrigin:"center"},"do")
+        .fromTo("#blackcircle",{scale:0.5,transformOrigin:"center"},{fill:"white"},"same")
+        .from("#whitesquare",{scale:0, transformOrigin:"center"},"same") 
+        .from("#blacktriangle",{scale:0, transformOrigin:"center"})
+       
         return tl;
 }
 
@@ -154,8 +153,8 @@ function voritext2Animation(){
 
 var mainTL = gsap.timeline();
 mainTL
-.add(dots1Animation())
-.add(triangle1Animation())
+.add(dots1Animation(),"same")
+.add(triangle1Animation(),"same")
 .add(dots1changeAnimation())
 .add(dots2Animation())
 .add(voritext1Animation(),"do")
