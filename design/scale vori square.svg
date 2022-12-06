@@ -3,6 +3,6 @@
 <rect width="2668" height="1724" fill="black"/>
 <rect id="whitesquare" x="980" y="505" width="707.001" height="714.071" rx="247.45" fill="white"/>
 <path id="blacktriangle" d="M1331.44 1096.83C1332.61 1098.74 1335.39 1098.74 1336.56 1096.83L1574.55 708.819C1575.78 706.82 1574.34 704.25 1571.99 704.25H1096.01C1093.66 704.25 1092.22 706.82 1093.45 708.819L1331.44 1096.83Z" fill="black"/>
-<path id="triangleline" d="M1304.4 618.678L1511.05 1011.65" stroke="white" stroke-width="10"/>
+<rect id="triangleline" x="1171.71" y="694.296" width="235.146" height="524.689" transform="rotate(-30.9269 1171.71 694.296)" fill="white"/>
 </g>
 </svg>
